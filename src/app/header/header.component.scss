@@ -1,0 +1,27 @@
+
+header{
+    position: sticky;
+    width: 100%;
+    font-weight: 400;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 0;
+    >img{
+        height: 50px;
+    }
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        color: #70E61C;
+    }
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
