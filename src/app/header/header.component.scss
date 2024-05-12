@@ -1,5 +1,4 @@
-
-header{
+header {
     position: sticky;
     width: 100%;
     font-weight: 400;
@@ -8,20 +7,30 @@ header{
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 20px 0;
-    >img{
+    padding: 37px 100px 37px 100px;
+    background-color: #141D2F;
+
+    >img {
         height: 50px;
     }
 }
 
-a{
+a {
     text-decoration: none;
-    &:hover{
+
+    &:hover {
+        color: #70E61C;
+    }
+
+    &:focus {
+        border-bottom: 3px solid #9747FF;
+        padding-bottom: 1px;
+        border-radius: 2px;
         color: #70E61C;
     }
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     gap: 20px;
 }
