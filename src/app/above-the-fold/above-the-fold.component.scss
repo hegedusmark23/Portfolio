@@ -16,13 +16,20 @@
     
 }
 
-.text-container{
+.atf-text-container{
     display: flex;
     align-items: center;
-    position: relative;
-    top: -250;
-    right: 150px;
+    position: absolute;
+    flex-direction: column;
+    top: 297px;
+    left: 900px;
     z-index: 999;
+    gap: 0px;
+}
+
+.atf-inner-text-container{
+    display: flex;
+    align-items: center;
 }
 
 h1{
@@ -35,8 +42,8 @@ h2{
     color: #9747FF;
 }
 
-p{
-    font-size: 75px;
+.introduction-text{
+    font-size:  64px;
     transform: rotate(-90deg);
 }
 
@@ -51,6 +58,7 @@ p,h1,h2{
     position: absolute;
     z-index: 1;
     left: 200px;
+    top: 200px;
 }
 
 .purp-green-clouds{
@@ -58,3 +66,24 @@ p,h1,h2{
     position: relative;
     z-index: 0;
 }
+
+.scroll-down-text{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    z-index: 4;
+    top: 873px;
+    right: 100px;
+    gap: 10px;
+    transform: rotate(+90deg);
+    >p{
+        font-size: 23px;
+        padding-right: 10px;
+    }
+    >img{
+        height: 16px;
+        width: 16px;
+        object-fit: cover;
+    };
+}
+

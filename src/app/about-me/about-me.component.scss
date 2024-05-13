@@ -1,0 +1,86 @@
+
+.social-links-section{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+    gap: 42px;
+    top: 1000px;
+    >img{
+        height: 32px;
+        
+    }
+}
+
+.about-me-section{
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.social-logos{
+    transition: transform 0.3s ease-in-out;
+        &:hover{
+            transform: scale(1.2);
+        }
+}
+
+.mail{
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.purple-line{
+    width: 100px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #9747FF;
+}
+
+.purple-shadow{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-left: 700px;
+}
+
+.portrait-container{
+    display: flex;
+    align-items: center;
+    z-index: 5;
+}
+
+.portrait{
+    height: 504px;
+    border-radius: 50%;
+    border: 4px solid #70E61C;
+}
+
+.green-line{
+    width: 367px;
+    height: 4px;
+    background-color: #70E61C;
+}
+
+.text-section{
+    padding-left: 100px;
+    max-width: 471px;
+    >h1{
+        font-size: 90px;
+        font-weight: bold;
+        line-height: 108px;
+        margin-block-start: 200px;
+        margin-block-end: 0;
+    }
+}
+
+.sub-text-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    >img{
+        height: 50px;
+    }
+}
