@@ -1,5 +1,5 @@
 header {
-    position: sticky;
+    position: fixed;
     width: 100%;
     font-weight: 400;
     font-size: 23px;
@@ -9,7 +9,7 @@ header {
     box-sizing: border-box;
     padding: 37px 100px 37px 100px;
     background-color: #141D2F;
-
+    z-index: 999;
     >img {
         height: 50px;
     }

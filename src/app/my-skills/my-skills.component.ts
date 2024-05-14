@@ -1,12 +1,57 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-my-skills',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './my-skills.component.html',
   styleUrl: './my-skills.component.scss'
 })
 export class MySkillsComponent {
+  technologies = [
+    {
+      path: 'angular-logo.png',
+      name: 'Angular'
+    },
+    {
+      path: 'typescript-logo.png',
+      name: 'Typescript'
+    },
+    {
+      path: 'javascript-logo.png',
+      name: 'Javascript'
+    },
+    {
+      path: 'html-logo.png',
+      name: 'HTML'
+    },
+    {
+      path: 'firebase-logo.png',
+      name: 'Firebase'
+    },
+    {
+      path: 'git-logo.png',
+      name: 'GIT'
+    },
+    {
+      path: 'css-logo.png',
+      name: 'CSS'
+    },
+    {
+      path: 'restapi-logo.png',
+      name: 'Rest-Api'
+    },
+    {
+      path: 'scrum-logo.png',
+      name: 'Scrum'
+    },
+    {
+      path: 'material-design-logo.png',
+      name: 'Material Design'
+    },
+
+  ]
+  
 
 }
