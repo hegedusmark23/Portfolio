@@ -1,28 +1,27 @@
-<section>
+<section id="portfolio">
     <div class="portfolio-headline">
-        <div class="purple-line-short"></div>
-        <h1>Portfolio</h1>
-        <div class="purple-line-long"></div>
-    </div>
-
-    <div>
+        <div class="title-container">
+            <div class="purple-line-short"></div>
+            <h1>Portfolio</h1>
+            <div class="purple-line-long"></div>
+        </div>
         <p>Explore a selection of my work here - Interact with projects to see my skills in action.</p>
     </div>
 
-    <div>
+    <div class="project-container">
         @for(project of portfolio; track project){
-            <div>
-                <img src="" alt="">
-                <div>
-                    <h1>{{project.name}}</h1>
-                    <h2>{{project.techstack}}</h2>
-                    <p>{{project.description}}</p>
-                    <div>
-                        <a href=""><button class="purple-btn">Live test</button></a>
-                        <a href=""><button class="transparent-btn">Github</button></a>
-                    </div>
+        <div style="flex-direction: {{project.flex_style}};" class="project-element">
+            <img src="../../assets/img/project-screenshots/{{project.image}}" alt="">
+            <div style="align-items: {{project.alignment}};" class="project-description">
+                <h1>{{project.name}}</h1>
+                <h2>{{project.techstack}}</h2>
+                <p>{{project.description}}</p>
+                <div class="button-container">
+                    <a href=""><button class="purple-btn">Live test</button></a>
+                    <a href=""><button class="transparent-btn">Github</button></a>
                 </div>
             </div>
+        </div>
         }
     </div>
 </section>
