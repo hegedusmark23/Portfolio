@@ -1,0 +1,46 @@
+
+footer{
+    width: 100%;
+    height: 291px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    box-sizing: border-box;
+    border-top: 4px solid #70E61C;
+    p{
+        font-size: 23px;
+    }
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    img{
+        height: 60px;
+        object-fit: contain;
+        cursor: pointer;
+    }
+}
+
+.impressum{
+    text-decoration: none;
+        &:hover {
+            border-bottom: 3px solid #9747FF;
+            padding-bottom: 1px;
+            border-radius: 2px;
+            color: #70E61C;
+            width: 50%;
+        }
+}
+
+.links-container{
+    display: flex;
+    gap: 42px;
+    a{
+        transition: transform .2s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}

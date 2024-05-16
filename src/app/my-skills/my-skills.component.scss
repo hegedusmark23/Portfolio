@@ -1,6 +1,17 @@
+.my-skills{
+    width: 100%;
+    max-width: 1920px !important;
+    position: relative;
+    display: flex;
+    margin: auto;
+    height: 100%;
+    z-index: 998;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
 .skills-container {
-    position: absolute;
-    top: 1840px;
     display: flex;
     max-width: 650px;
     flex-wrap: wrap;
@@ -11,7 +22,8 @@
 
 .green-shadow{
     position: absolute;
-    top: 1880px;
+    left: 0;
+    top: 0;
     z-index: 0;
 }
 
@@ -51,9 +63,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 1815px;
-    right: 0;
     gap: 30px;
 
     >div {

@@ -1,11 +1,15 @@
 .above-the-fold {
     height: 100vh;
+    width: 100%;
     background-color: #141D2F;
+    position: relative;
+    display: flex;
+    margin: auto;
 }
 
 
 .separator {
-    width: 100vw;
+    width: 100vw !important;
     position: absolute;
     top: 320px;
     z-index: 2;
@@ -22,7 +26,7 @@
     position: absolute;
     flex-direction: column;
     top: 297px;
-    left: 900px;
+    right: 160px;
     z-index: 998;
     gap: 0px;
 }

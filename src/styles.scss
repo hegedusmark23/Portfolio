@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Poppins';
     src: url(./assets/fonts/Poppins-Bold.ttf) format("truetype");
-    font-weight: bold;
+    font-weight: 700;
     font-style: bold;
 }
 
 @font-face {
     font-family: 'Poppins';
     src: url(./assets/fonts/Poppins-Regular.ttf) format("truetype");
-    font-weight: regular;
+    font-weight: 400;
     font-style: regular;
 }
 
@@ -22,8 +22,8 @@ html{
 
 body {
     display: flex;
-    justify-self: center;
-    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     box-sizing: border-box;
     background-color: #141D2F;

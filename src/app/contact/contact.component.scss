@@ -1,0 +1,22 @@
+
+.contact{
+    width: 100%;
+    max-width: 1920px !important;
+    position: relative;
+    display: flex;
+    margin: auto;
+    height: 100%;
+    z-index: 998;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px ;
+}
+
+input[type='checkbox']{
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    outline: 2px solid #70E61C;
+    box-shadow: none;
+    font-size: 2em;
+  }
