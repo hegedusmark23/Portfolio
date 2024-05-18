@@ -22,8 +22,6 @@ export class ContactformComponent {
 
   isChecked: boolean = false;
 
-  mailTest = true;
-
   post = {
     endPoint: 'https://mail@mark-hegedus.com/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
@@ -49,7 +47,7 @@ export class ContactformComponent {
   }
 
   onSubmit(ngForm: NgForm) {
-    if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
+    if (ngForm.submitted && ngForm.form.valid) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
@@ -61,9 +59,6 @@ export class ContactformComponent {
           },
           complete: () => console.info('send post complete'),
         });
-    } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
-
-      ngForm.resetForm();
-    }
+    } 
   }
 }

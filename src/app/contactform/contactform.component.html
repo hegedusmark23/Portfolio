@@ -32,10 +32,10 @@
                 outlined.
             </p>
         </div>
-        <p class="error-message">Please accept the privacy policy.</p>
+        <span *ngIf="!message.valid && message.touched" class="error-message">Please accept the privacy policy.</span>
     </div>
 
 
-    <input class="green-btn" type="submit" value="Send message">
+    <input class="green-btn" type="submit" value="Send message" disabled>
 
 </form>
