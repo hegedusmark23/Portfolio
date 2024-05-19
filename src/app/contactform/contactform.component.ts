@@ -12,15 +12,44 @@ import { FormsModule, NgForm } from '@angular/forms';
 })
 export class ContactformComponent {
 
-  constructor(){
-    //this.checkIfChecked();
+  constructor() {
+    this.updateImageSrc();
   }
 
   http = inject(HttpClient);
 
   imgSrcCheck: string = '../../assets/img/design-components/checkbox-unchecked.png';
+  imgSrcUnchecked: string = '../../assets/img/design-components/checkbox-unchecked.png';
+  imgSrcChecked: string = '../../assets/img/design-components/checkbox-checked.png';
+  imgSrcUncheckedHover: string = '../../assets/img/design-components/checkbox-unchecked-hover.png';
+  imgSrcCheckedHover: string = '../../assets/img/design-components/checkbox-checked-hover.png';
 
-  isChecked: boolean = false;
+  isClicked: boolean = false;
+  isHoveringOver: boolean = false;
+
+  toggleCheck() {
+    this.isClicked = !this.isClicked;
+    this.updateImageSrc();
+  }
+
+  handleMouseOver() {
+    this.isHoveringOver = true;
+    this.updateImageSrc();
+  }
+
+  handleMouseOut() {
+    this.isHoveringOver = false;
+    this.updateImageSrc();
+  }
+
+  updateImageSrc() {
+    if (this.isClicked) {
+      this.imgSrcCheck = this.isHoveringOver ? this.imgSrcCheckedHover : this.imgSrcChecked;
+    } else {
+      this.imgSrcCheck = this.isHoveringOver ? this.imgSrcUncheckedHover : this.imgSrcUnchecked;
+    }
+  }
+
 
   post = {
     endPoint: 'https://mail@mark-hegedus.com/sendMail.php',
@@ -40,12 +69,6 @@ export class ContactformComponent {
     message: ''
   };
 
-  checkIfChecked(){
-    if (this.imgSrcCheck = '../../assets/img/design-components/checkbox-checked.png') {
-      console.log('gecijó')
-    }
-  }
-
   onSubmit(ngForm: NgForm) {
     if (ngForm.submitted && ngForm.form.valid) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
@@ -59,6 +82,6 @@ export class ContactformComponent {
           },
           complete: () => console.info('send post complete'),
         });
-    } 
+    }
   }
 }
