@@ -50,6 +50,10 @@ form {
     outline: 2px solid red;
 }
 
+.input-correct {
+    outline: 2px solid #70E61C;
+}
+
 .abled-submit {
     padding: 15px 30px 15px 30px;
     cursor: pointer;
@@ -110,4 +114,10 @@ form {
         margin-block-start: 0;
         margin-block-end: 0;
     }
+}
+
+.input-icon {
+    position: absolute;
+    right: 25px;
+    top: 14px
 }

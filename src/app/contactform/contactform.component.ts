@@ -32,21 +32,11 @@ export class ContactformComponent {
     this.updateImageSrc();
   }
 
-  handleMouseOver() {
-    this.isHoveringOver = true;
-    this.updateImageSrc();
-  }
-
-  handleMouseOut() {
-    this.isHoveringOver = false;
-    this.updateImageSrc();
-  }
-
   updateImageSrc() {
     if (this.isClicked) {
-      this.imgSrcCheck = this.isHoveringOver ? this.imgSrcCheckedHover : this.imgSrcChecked;
+      this.imgSrcCheck = this.imgSrcChecked;
     } else {
-      this.imgSrcCheck = this.isHoveringOver ? this.imgSrcUncheckedHover : this.imgSrcUnchecked;
+      this.imgSrcCheck = this.imgSrcUnchecked;
     }
   }
 

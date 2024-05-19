@@ -10,7 +10,7 @@
 
     <div class="project-container">
         @for(project of portfolio; track project){
-        <div style="flex-direction: {{project.flex_style}};" class="project-element">
+        <div style="flex-direction: {{project.flex_style}}; z-index: 998;" class="project-element">
             <img src="../../assets/img/project-screenshots/{{project.image}}" alt="">
             <div style="align-items: {{project.alignment}};" class="project-description">
                 <h1>{{project.name}}</h1>
@@ -24,4 +24,7 @@
         </div>
         }
     </div>
+
+    <img style="position: absolute; top: 500px; left: 0px;" src="../../assets/img/design-components/purple-shadow-portfolio.png" alt="">
+    <img style="position: absolute; bottom: 0px; right: 0px;" src="../../assets/img/design-components/green-shadow-portfolio.png" alt="">
 </section>
