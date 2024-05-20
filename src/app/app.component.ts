@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { FooterComponent } from "./footer/footer.component";
 import { HeaderComponent } from "./header/header.component";
 import { MainContentComponent } from "./main-content/main-content.component";
+import * as AOS from "aos"
 
 @Component({
     selector: 'app-root',
@@ -13,4 +14,9 @@ import { MainContentComponent } from "./main-content/main-content.component";
 })
 export class AppComponent {
   title = 'Mark Hegedus';
+  ngOnInit(){
+   if (typeof document !== 'undefined') {
+     AOS.init();
+   }
+  }
 }

@@ -10,7 +10,7 @@
 
     <div class="project-container">
         @for(project of portfolio; track project){
-        <div style="flex-direction: {{project.flex_style}}; z-index: 998;" class="project-element">
+        <div style="flex-direction: {{project.flex_style}}; z-index: 998;" class="project-element" data-aos="fade-left">
             <img src="../../assets/img/project-screenshots/{{project.image}}" alt="">
             <div style="align-items: {{project.alignment}};" class="project-description">
                 <h1>{{project.name}}</h1>

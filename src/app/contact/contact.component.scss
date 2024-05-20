@@ -58,4 +58,13 @@
     right: 100px;
     bottom: 100px;
     z-index: 989;
+    animation: mymove 0.5s infinite;
 }
+
+@keyframes mymove {
+    0%   {bottom: 100px;}
+    25%   {bottom: 102px;}
+    50%   {bottom: 105px;}
+    75%   {bottom: 102px;}
+    100% {bottom: 100px;}
+  }

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-portfolio',
   standalone: true,
@@ -7,7 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.scss'
 })
-export class PortfolioComponent {
+export class PortfolioComponent{
 
   portfolio = [
     {
@@ -18,7 +17,8 @@ export class PortfolioComponent {
       flex_style: 'row',
       alignment: 'start',
       github_link: 'https://github.com/hegedusmark23/Join',
-      test_link: 'https://portfolio.mark-hegedus.com/join/'
+      test_link: 'https://portfolio.mark-hegedus.com/join/',
+      fade: 'fade-left'
     },
     {
       name: 'El Pollo Loco',
@@ -28,7 +28,8 @@ export class PortfolioComponent {
       flex_style: 'row-reverse',
       alignment: 'end',
       github_link: 'https://github.com/hegedusmark23/El-Pollo-Loco',
-      test_link: 'https://portfolio.mark-hegedus.com/el_pollo_loco/'
+      test_link: 'https://portfolio.mark-hegedus.com/el_pollo_loco/',
+      fade: 'fade-right'
     },
     {
       name: 'Pokedex',
@@ -38,7 +39,10 @@ export class PortfolioComponent {
       flex_style: 'row',
       alignment: 'start',
       github_link: 'https://github.com/hegedusmark23/Pokedex',
-      test_link: 'https://portfolio.mark-hegedus.com/pokedex/'
+      test_link: 'https://portfolio.mark-hegedus.com/pokedex/',
+      fade: 'fade-left'
     }
   ]
+
+
 }

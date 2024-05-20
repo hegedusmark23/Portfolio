@@ -101,6 +101,7 @@ h2 {
     right: 100px;
     gap: 10px;
     transform: rotate(+90deg);
+    animation: mymove 2s infinite;
 
     >p {
         font-size: 23px;
@@ -112,6 +113,11 @@ h2 {
         width: 16px;
         object-fit: cover;
     }
-
-    ;
 }
+
+@keyframes mymove {
+    0%   {top: 873px;}
+    25%  {top: 943px;}
+    75%  {top: 923px}
+    100% {top: 873px;}
+  }
