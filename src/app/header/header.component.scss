@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     max-width: 1920px !important;
     font-weight: 400;
     font-size: 23px;
@@ -14,6 +14,18 @@ header {
     >img {
         height: 50px;
     }
+}
+
+.language-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.separator{
+    width: 4px;
+    height: 20px;
+    background-color: #9747FF;
 }
 
 a {
