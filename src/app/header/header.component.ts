@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
+import { TranslationService } from '../app-translate/translation.service';
 
 @Component({
   selector: 'app-header',
@@ -9,5 +10,5 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-
+constructor(private translationService: TranslationService){}
 }
