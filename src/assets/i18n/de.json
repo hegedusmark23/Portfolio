@@ -1,0 +1,18 @@
+{
+    "navigation": {
+        "aboutme": "Über mich"
+    },
+    "aboutMe": {
+        "headline": "Über mich",
+        "text1": "",
+        "text2": "",
+        "text3": ""
+    },
+    "mySkills": {
+        "headline": "Meine Skills",
+        "text": "Ich habe Erfahrung in der Erstellung von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt."
+    },
+    "portfolio": {
+        "text": "Hier eine kleine Auswahl meiner aktuellsten Projekte - teste sie gerne aus."
+    }
+}
