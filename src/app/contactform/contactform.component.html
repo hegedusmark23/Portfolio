@@ -38,8 +38,13 @@
         <span *ngIf="message.touched && !this.isClicked" class="error-message">Please accept the privacy policy.</span>
     </div>
 
+    <div class="submit-container">
+       <span data-aos="fade-left" *ngIf="this.submitted" class="succesful-message">Message sent.</span>
 
-    <input [ngClass]="{'abled-submit': contactForm.valid && isClicked, 'disabled-submit': !contactForm.valid || !isClicked}" type="submit"
-    value="Send message" [disabled]="!contactForm.valid || !isClicked">
+        <input [ngClass]="{'abled-submit': contactForm.valid && isClicked, 'disabled-submit': !contactForm.valid || !isClicked}" type="submit"
+        value="Send message" [disabled]="!contactForm.valid || !isClicked">  
+    </div>
+
+   
 
 </form>

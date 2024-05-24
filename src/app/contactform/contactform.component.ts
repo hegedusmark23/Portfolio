@@ -21,11 +21,10 @@ export class ContactformComponent {
   imgSrcCheck: string = '../../assets/img/design-components/checkbox-unchecked.png';
   imgSrcUnchecked: string = '../../assets/img/design-components/checkbox-unchecked.png';
   imgSrcChecked: string = '../../assets/img/design-components/checkbox-checked.png';
-  imgSrcUncheckedHover: string = '../../assets/img/design-components/checkbox-unchecked-hover.png';
-  imgSrcCheckedHover: string = '../../assets/img/design-components/checkbox-checked-hover.png';
 
   isClicked: boolean = false;
   isHoveringOver: boolean = false;
+  public submitted:boolean = false;
 
   toggleCheck() {
     this.isClicked = !this.isClicked;
@@ -38,6 +37,10 @@ export class ContactformComponent {
     } else {
       this.imgSrcCheck = this.imgSrcUnchecked;
     }
+  }
+
+  resetCheckbox(){
+    this.imgSrcCheck = '../../assets/img/design-components/checkbox-unchecked.png';
   }
 
 
@@ -64,7 +67,8 @@ export class ContactformComponent {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
-            //saját funkció
+            this.succesfulMessage();
+            this.resetCheckbox();
             ngForm.resetForm();
           },
           error: (error) => {
@@ -74,4 +78,11 @@ export class ContactformComponent {
         });
     }
   }
+
+succesfulMessage(){
+  this.submitted = true;
+  setTimeout(() => {
+    this.submitted = false;
+  }, 5000);
+}
 }

@@ -97,6 +97,13 @@ form {
     font-size: 14px;
 }
 
+.succesful-message{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #70E61C;
+    font-size: 14px;
+}
+
 .input-thin {
     height: 50px;
 }
@@ -120,4 +127,12 @@ form {
     position: absolute;
     right: 25px;
     top: 14px
+}
+
+.submit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
 }

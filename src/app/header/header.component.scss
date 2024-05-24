@@ -34,16 +34,20 @@ a {
     &:hover {
         color: #70E61C;
     }
-
-    &:focus {
-        border-bottom: 3px solid #9747FF;
-        padding-bottom: 1px;
-        border-radius: 2px;
-        color: #70E61C;
-    }
 }
 
 .nav-links {
     display: flex;
     gap: 20px;
+}
+.focused{
+    border-bottom: 3px solid #9747FF;
+        padding-bottom: 1px;
+        border-radius: 2px;
+        color: #70E61C;
+}
+
+.activeLanguage{
+    color: #70E61C;
+    font-weight: 700;
 }
