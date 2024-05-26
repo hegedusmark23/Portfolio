@@ -17,6 +17,31 @@
     },
 
     "portfolio": {
-        "text": "Explore a selection of my work here - please feel free to try them out."
+        "text": "Explore a selection of my work here - please feel free to try them out.",
+        "joinDescription": "Task Manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories",
+        "elPolloLocoDescription": "'A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to collect coins, and defeat the chikens.",
+        "pokedexDescription": "Based on the PokéAPI a simple library that provides and catalouges pokemon information."
+    },
+
+    "contact": {
+        "headline": "Contact",
+        "h2": "Got a problem to solve?",
+        "text1": "Contact me trough this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work.",
+        "text2": "Need a Frontend developer? ",
+        "bold": "Contact me!"
+        
+    },
+
+    "contactForm": {
+        "privacyPolicy1": "I've read the ",
+        "privacyPolicy2": "and agree to the processing of my data as outlined.",
+        "link": "privacy policy",
+        "placeholderName": "Your name",
+        "placeholderEmail": "Your email",
+        "placeholderMessage": "Your message",
+        "errorName": "Your name is required",
+        "errorEmail": "Your email is required",
+        "errorMessage": "Your message is empty",
+        "errorPolicy": "Please accept the privacy policy."
     }
 }

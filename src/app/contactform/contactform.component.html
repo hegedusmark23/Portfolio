@@ -2,40 +2,39 @@
 
     <div style="position: relative;">
         <input #name="ngModel" [(ngModel)]="contactData.name" class="input-thin input-container input-design"
-            placeholder="Your name" type="text" style="color:white;" name="name" required
+            placeholder="{{'contactForm.placeholderName' | translate}}" type="text" style="color:white;" name="name" required
             [ngClass]="{'input-error': !name.valid && name.touched, 'input-correct': name.valid}">
         <img *ngIf="!name.valid && name.touched" class="input-icon" src="../../assets/img/design-components/red-error.png" alt="error">
         <img *ngIf="name.valid && name.touched" class="input-icon" src="../../assets/img/design-components/green-check.png" alt="correct">    
-        <span *ngIf="!name.valid && name.touched" class="error-message">Your name is required</span>
+        <span *ngIf="!name.valid && name.touched" class="error-message">{{'contactForm.errorName' | translate}}</span>
     </div>
 
     <div style="position: relative;">
         <input #email="ngModel" [(ngModel)]="contactData.email" class="input-thin input-container input-design"
-            placeholder="Your email" type="email" name="email" required
+            placeholder="{{'contactForm.placeholderEmail' | translate}}" type="email" name="email" required
             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
             [ngClass]="{'input-error': !email.valid && email.touched, 'input-correct': email.valid}">
             <img *ngIf="!email.valid && email.touched" class="input-icon" src="../../assets/img/design-components/red-error.png" alt="error">
             <img *ngIf="email.valid && email.touched" class="input-icon" src="../../assets/img/design-components/green-check.png" alt="correct">   
-        <span *ngIf="!email.valid && email.touched" class="error-message">Your email is required</span>
+        <span *ngIf="!email.valid && email.touched" class="error-message">{{'contactForm.errorEmail' | translate}}</span>
     </div>
 
     <div style="position: relative;">
-        <textarea [minlength]="2" #message="ngModel" [(ngModel)]="contactData.message" placeholder="Your message"
+        <textarea [minlength]="2" #message="ngModel" [(ngModel)]="contactData.message" placeholder="{{'contactForm.placeholderMessage' | translate}}"
             class="input-thick input-container input-design" name="message" id="" required
             [ngClass]="{'input-error': !message.valid && message.touched, 'input-correct': message.valid}"></textarea>
             <img *ngIf="!message.valid && message.touched" class="input-icon" src="../../assets/img/design-components/red-error.png" alt="error">
             <img *ngIf="message.valid && message.touched" class="input-icon" src="../../assets/img/design-components/green-check.png" alt="correct">  
-        <span *ngIf="!message.valid && message.touched" class="error-message">Your message is empty</span>
+        <span *ngIf="!message.valid && message.touched" class="error-message">{{'contactForm.errorMessage' | translate}}</span>
     </div>
 
     <div class="input-container">
         <div class="privacyP-container">
             <img [src]="imgSrcCheck" (click)="toggleCheck()" alt="checkbox">
-            <p>I've read the <a href="">privacy policy</a> and agree to the processing of my data as
-                outlined.
+            <p>{{"contactForm.privacyPolicy1" | translate}} <a href="">{{"contactForm.link" | translate}}</a> {{"contactForm.privacyPolicy2" | translate}}
             </p>
         </div>
-        <span *ngIf="message.touched && !this.isClicked" class="error-message">Please accept the privacy policy.</span>
+        <span *ngIf="message.touched && !this.isClicked" class="error-message">{{'contactForm.errorPolicy' | translate}}</span>
     </div>
 
     <div class="submit-container">

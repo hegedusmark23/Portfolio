@@ -13,6 +13,28 @@
         "text": "Ich habe Erfahrung in der Erstellung von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt."
     },
     "portfolio": {
-        "text": "Hier eine kleine Auswahl meiner aktuellsten Projekte - teste sie gerne aus."
+        "text": "Entdecken Sie hier eine Auswahl meiner Arbeit - bitte probieren Sie sie aus.",
+        "joinDescription": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+        "elPolloLocoDescription": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Helfen Sie Pepe, Münzen zu sammeln und die Hühner zu besiegen.",
+        "pokedexDescription": "Basierend auf der PokéAPI eine einfache Bibliothek, die Pokémon-Informationen bereitstellt und katalogisiert."
+    },
+    "contact": {
+        "headline": "Kontakt",
+        "h2": "Haben Sie ein Problem zu lösen?",
+        "text1": "Kontaktieren Sie mich über dieses Formular, ich freue mich darauf, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.    ",
+        "text2": "Brauchen Sie einen Frontend-Entwickler?",
+        "bold": "Kontaktieren Sie mich!"
+    },
+    "contactForm": {
+        "privacyPolicy1": "Ich habe die ",
+        "privacyPolicy2": "gelesen und stimme der Verarbeitung meiner Daten gemäß den Bestimmungen zu.",
+        "link": "Datenschutzerklärung",
+        "placeholderName": "Ihr Name",
+        "placeholderEmail": "Ihre E-Mail",
+        "placeholderMessage": "Ihre Nachricht",
+        "errorName": "Ihr Name ist erforderlich",
+        "errorEmail": "Ihre E-Mail ist erforderlich",
+        "errorMessage": "Ihre Nachricht ist leer",
+        "errorPolicy": "Bitte akzeptieren Sie die Datenschutzrichtlinie."
     }
 }

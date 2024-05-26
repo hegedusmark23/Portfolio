@@ -15,7 +15,7 @@
             <div style="align-items: {{project.alignment}};" class="project-description">
                 <h1>{{project.name}}</h1>
                 <h2>{{project.techstack}}</h2>
-                <p>{{project.description}}</p>
+                <p>{{"portfolio." + project.description| translate}}</p>
                 <div class="button-container">
                     <a href="{{project.test_link}}" target="_blank"><button class="purple-btn">Live test</button></a>
                     <a href="{{project.github_link}}" target="_blank"><button class="transparent-btn">Github</button></a>
