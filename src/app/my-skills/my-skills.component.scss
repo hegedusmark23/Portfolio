@@ -18,7 +18,10 @@
     gap: 50px;
     padding-left: 100px;
     justify-content: start;
+    position: relative;
+    z-index: 998;
 }
+
 
 .green-shadow{
     position: absolute;

@@ -7,6 +7,29 @@ form {
     max-width: 617px;
 }
 
+.padding::-webkit-input-placeholder {
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: 'Poppins'; }
+ 
+ .padding::-moz-input-placeholder {
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: 'Poppins'; 
+ }
+ 
+ .padding:-moz-input-placeholder {
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: 'Poppins'; 
+ }
+ 
+ .padding:-ms-input-placeholder {
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: 'Poppins'; 
+ }
+
 .privacyP-container {
     display: flex;
     align-items: center;

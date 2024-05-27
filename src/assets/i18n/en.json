@@ -6,14 +6,15 @@
 
     "aboutMe": {
         "headline": "About me",
-        "text1": "",
-        "text2": "",
-        "text3": ""
+        "text1": "I am a frontend developer currently living in Weinfelden, Switzerland. I specialize in creating intuitive and visually appealing user interfaces, utilizing the latest technologies and best practices in web development. My passion lies in crafting seamless and efficient user experiences.",
+        "text2": "Analytical thinking and problem-solving are my key strengths. I excel at breaking down complex issues into manageable parts and finding effective solutions. My methodical approach and attention to detail ensure that I consistently deliver high-quality results.",
+        "text3": "I am a strong team player and highly value the importance of collaboration. I believe that working together and leveraging each team member's strengths leads to better outcomes and fosters a positive work environment. My cooperative attitude and communication skills enable me to contribute effectively to any team."
     },
 
     "mySkills": {
         "headline": "My Skills",
-        "text": "I have gained experience in building projects with various front end technologies and concepts."
+        "text": "I have gained experience in building projects with various front end technologies and concepts.",
+        "button": "Send a message"
     },
 
     "portfolio": {
@@ -42,6 +43,7 @@
         "errorName": "Your name is required",
         "errorEmail": "Your email is required",
         "errorMessage": "Your message is empty",
-        "errorPolicy": "Please accept the privacy policy."
+        "errorPolicy": "Please accept the privacy policy.",
+        "button": "Send message"
     }
 }

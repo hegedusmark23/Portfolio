@@ -21,7 +21,7 @@
 
     <div style="position: relative;">
         <textarea [minlength]="2" #message="ngModel" [(ngModel)]="contactData.message" placeholder="{{'contactForm.placeholderMessage' | translate}}"
-            class="input-thick input-container input-design" name="message" id="" required
+            class="input-thick input-container input-design padding" name="message" id="" required
             [ngClass]="{'input-error': !message.valid && message.touched, 'input-correct': message.valid}"></textarea>
             <img *ngIf="!message.valid && message.touched" class="input-icon" src="../../assets/img/design-components/red-error.png" alt="error">
             <img *ngIf="message.valid && message.touched" class="input-icon" src="../../assets/img/design-components/green-check.png" alt="correct">  
@@ -40,8 +40,8 @@
     <div class="submit-container">
        <span data-aos="fade-left" *ngIf="this.submitted" class="succesful-message">Message sent.</span>
 
-        <input [ngClass]="{'abled-submit': contactForm.valid && isClicked, 'disabled-submit': !contactForm.valid || !isClicked}" type="submit"
-        value="Send message" [disabled]="!contactForm.valid || !isClicked">  
+        <button [ngClass]="{'abled-submit': contactForm.valid && isClicked, 'disabled-submit': !contactForm.valid || !isClicked}"
+         [disabled]="!contactForm.valid || !isClicked">{{'contactForm.button' | translate}}</button>  
     </div>
 
    
