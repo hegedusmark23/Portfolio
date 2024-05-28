@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './impressum.component.scss'
 })
 export class ImpressumComponent {
-
+  imgSrc: string = '../../assets/img/design-components/goup-btn.png';
 }

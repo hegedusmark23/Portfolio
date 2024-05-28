@@ -5,3 +5,11 @@ section{
     padding: 0 100px; 
     box-sizing: border-box;
 }
+
+.up-btn{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    z-index: 989;
+    transform: rotate(-90deg);
+}

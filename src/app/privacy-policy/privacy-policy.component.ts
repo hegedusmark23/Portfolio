@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './privacy-policy.component.scss'
 })
 export class PrivacyPolicyComponent {
-
+  imgSrc: string = '../../assets/img/design-components/goup-btn.png';
 }
