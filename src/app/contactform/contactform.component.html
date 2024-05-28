@@ -31,7 +31,7 @@
     <div class="input-container">
         <div class="privacyP-container">
             <img [src]="imgSrcCheck" (click)="toggleCheck()" alt="checkbox">
-            <p>{{"contactForm.privacyPolicy1" | translate}} <a href="">{{"contactForm.link" | translate}}</a> {{"contactForm.privacyPolicy2" | translate}}
+            <p>{{"contactForm.privacyPolicy1" | translate}} <a href="privacy">{{"contactForm.link" | translate}}</a> {{"contactForm.privacyPolicy2" | translate}}
             </p>
         </div>
         <span *ngIf="message.touched && !this.isClicked" class="error-message">{{'contactForm.errorPolicy' | translate}}</span>
