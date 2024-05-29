@@ -38,5 +38,73 @@
         "errorMessage": "Ihre Nachricht ist leer",
         "errorPolicy": "Bitte akzeptieren Sie die Datenschutzrichtlinie.",
         "button": "Nachricht senden"
-    }
+    },
+    
+        "impressum": {
+            "title": "Impressum",
+            "lawReference": "Angaben gemäß § 5 TMG",
+            "name": "Mark Hegedüs",
+            "address": "Schützenstasse 27, 85700 Weinfelden",
+            "representedBy": "Vertreten durch:",
+            "contact": "Kontakt:",
+            "phone": "Telefon: +41-787490102",
+            "email": "E-Mail: ",
+            "emailLink": "mailto:mail@mark-hegedus.com",
+            "disclaimerTitle": "Haftungsausschluss:",
+            "linkLiability": "Haftung für Links",
+            "linkLiabilityText": "Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.",
+            "privacyTitle": "Datenschutz",
+            "privacyText": "Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.",
+            "googleAnalyticsTitle": "Google Analytics",
+            "googleAnalyticsText": "Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. ('Google'). Google Analytics verwendet sog. 'Cookies', Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglicht. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse) wird an einen Server von Google in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten der Google in Verbindung bringen. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website voll umfänglich nutzen können. Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.",
+            "generatorLink": "Website Impressum von",
+            "generatorUrl": "https://www.impressum-generator.de"
+        },
+        
+            "privacyPolicy": {
+                "title": "Datenschutzerklärung",
+                "date": "Stand: 28. Mai 2024",
+                "tableOfContents": "Inhaltsübersicht",
+                "indexLinks": {
+                    "responsible": "Verantwortlicher",
+                    "overview": "Übersicht der Verarbeitungen",
+                    "legalBases": "Maßgebliche Rechtsgrundlagen",
+                    "securityMeasures": "Sicherheitsmaßnahmen",
+                    "dataTransfers": "Übermittlung von personenbezogenen Daten",
+                    "internationalTransfers": "Internationale Datentransfers",
+                    "dataStorage": "Allgemeine Informationen zur Datenspeicherung und Löschung",
+                    "webHosting": "Bereitstellung des Onlineangebots und Webhosting",
+                    "cookies": "Einsatz von Cookies",
+                    "contactManagement": "Kontakt- und Anfrageverwaltung"
+                },
+                "responsibleTitle": "Verantwortlicher",
+                "responsiblePerson": "Mark Hegedüs",
+                "email": "E-Mail-Adresse: mail@mark-hegedus.com",
+                "overviewTitle": "Übersicht der Verarbeitungen",
+                "dataTypes": "Arten der verarbeiteten Daten",
+                "dataTypesList": ["Bestandsdaten.", "Beschäftigtendaten.", "Kontaktdaten.", "Inhaltsdaten.", "Nutzungsdaten.", "Meta-, Kommunikations- und Verfahrensdaten.", "Protokolldaten."],
+                "categories": "Kategorien betroffener Personen",
+                "categoriesList": ["Beschäftigte.", "Kommunikationspartner.", "Nutzer."],
+                "purposes": "Zwecke der Verarbeitung",
+                "purposesList": ["Kommunikation.", "Sicherheitsmaßnahmen.", "Organisations- und Verwaltungsverfahren.", "Feedback.", "Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit.", "Begründung und Durchführung von Beschäftigungsverhältnissen.", "Informationstechnische Infrastruktur.", "Geschäftsprozesse und betriebswirtschaftliche Verfahren."],
+                "legalBasesTitle": "Maßgebliche Rechtsgrundlagen",
+                "legalBasesContent": "<strong>Maßgebliche Rechtsgrundlagen nach dem Schweizer Datenschutzgesetz: </strong>Wenn Sie sich in der Schweiz befinden, bearbeiten wir Ihre Daten auf Grundlage des Bundesgesetzes über den Datenschutz (kurz „Schweizer DSG\"). Anders als beispielsweise die DSGVO sieht das Schweizer DSG grundsätzlich nicht vor, dass eine Rechtsgrundlage für die Bearbeitung der Personendaten genannt werden muss und die Bearbeitung von Personendaten nach Treu und Glauben durchgeführt wird, rechtmäßig und verhältnismäßig ist (Art. 6 Abs. 1 und 2 des Schweizer DSG). Zudem werden Personendaten von uns nur zu einem bestimmten, für die betroffene Person erkennbaren Zweck beschafft und nur so bearbeitet, wie es mit diesem Zweck vereinbar ist (Art. 6 Abs. 3 des Schweizer DSG).",
+                "securityMeasuresTitle": "Sicherheitsmaßnahmen",
+                "securityMeasuresContent": "Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmaßes der Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten.",
+                "dataTransfersTitle": "Übermittlung von personenbezogenen Daten",
+                "dataTransfersContent": "Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor, dass diese an andere Stellen, Unternehmen, rechtlich selbstständige Organisationseinheiten oder Personen übermittelt beziehungsweise ihnen gegenüber offengelegt werden. Zu den Empfängern dieser Daten können z. B. mit IT-Aufgaben beauftragte Dienstleister gehören oder Anbieter von Diensten und Inhalten, die in eine Website eingebunden sind. In solchen Fällen beachten wir die gesetzlichen Vorgaben und schließen insbesondere entsprechende Verträge bzw. Vereinbarungen, die dem Schutz Ihrer Daten dienen, mit den Empfängern Ihrer Daten ab.",
+                "internationalTransfersTitle": "Internationale Datentransfers",
+                "internationalTransfersContent": "Bekanntgabe von Personendaten ins Ausland: Gemäß dem Schweizer DSG geben wir personenbezogene Daten nur dann ins Ausland bekannt, wenn ein angemessener Schutz der betroffenen Personen gewährleistet ist (Art. 16 Schweizer DSG). Sofern der Bundesrat keinen angemessenen Schutz festgestellt hat (Liste: <a href='https://www.bj.admin.ch/bj/de/home/staat/datenschutz/internationales/anerkennung-staaten.html' target='_blank'>https://www.bj.admin.ch/bj/de/home/staat/datenschutz/internationales/anerkennung-staaten.html</a>), ergreifen wir alternative Sicherheitsmaßnahmen. Diese können internationale Verträge, spezifische Garantien, Datenschutzklauseln in Verträgen, von der Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) genehmigte Standarddatenschutzklauseln oder von EDÖB oder einer zuständigen Datenschutzbehörde eines anderen Landes vorab anerkannte unternehmensinterne Datenschutzvorschriften umfassen.",
+                "dataStorageTitle": "Allgemeine Informationen zur Datenspeicherung und Löschung",
+                "dataStorageContent": "Wir löschen personenbezogene Daten, die wir verarbeiten, gemäß den gesetzlichen Bestimmungen, sobald die zugrundeliegenden Einwilligungen widerrufen werden oder keine weiteren rechtlichen Grundlagen für die Verarbeitung bestehen. Dies betrifft Fälle, in denen der ursprüngliche Verarbeitungszweck entfällt oder die Daten nicht mehr benötigt werden. Ausnahmen von dieser Regelung bestehen, wenn gesetzliche Pflichten oder besondere Interessen eine längere Aufbewahrung oder Archivierung der Daten erfordern.",
+                "webHostingTitle": "Bereitstellung des Onlineangebots und Webhosting",
+                "webHostingContent": "Wir verarbeiten die Daten der Nutzer, um ihnen unsere Online-Dienste zur Verfügung stellen zu können. Zu diesem Zweck verarbeiten wir die IP-Adresse des Nutzers, die notwendig ist, um die Inhalte und Funktionen unserer Online-Dienste an den Browser oder das Endgerät der Nutzer zu übermitteln.",
+                "cookiesTitle": "Einsatz von Cookies",
+                "cookiesContent": "Cookies sind kleine Textdateien bzw. sonstige Speichervermerke, die Informationen auf Endgeräten speichern und aus ihnen auslesen. Zum Beispiel, um den Log-in-Status in einem Nutzerkonto, einen Warenkorbinhalt in einem E-Shop, die aufgerufenen Inhalte oder verwendete Funktionen eines Onlineangebots zu speichern. Cookies können ferner in Bezug auf unterschiedliche Anliegen Einsatz finden, etwa zu Zwecken der Funktionsfähigkeit, der Sicherheit und des Komforts von Onlineangeboten sowie der Erstellung von Analysen der Besucherströme.",
+                "contactManagementTitle": "Kontakt- und Anfrageverwaltung",
+                "contactManagementContent": "Bei der Kontaktaufnahme mit uns (z. B. per Post, Kontaktformular, E-Mail, Telefon oder via soziale Medien) sowie im Rahmen bestehender Nutzer- und Geschäftsbeziehungen werden die Angaben der anfragenden Personen verarbeitet, soweit dies zur Beantwortung der Kontaktanfragen und etwaiger angefragter Maßnahmen erforderlich ist."
+            }
+        
+        
+    
 }

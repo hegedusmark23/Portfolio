@@ -51,3 +51,11 @@ a {
     color: #70E61C;
     font-weight: 700;
 }
+
+
+
+@media (max-width: 1000px) {
+    .nav-links{
+        display: none;
+    }
+}
