@@ -1,12 +1,11 @@
-$burgerWidth: 24px;
-$burgerBarHeight: 1px;
+$burgerWidth: 35px;
+$burgerBarHeight: 2px;
 $burgerBarColor: white;
 
 .burger-menu {
   width: $burgerWidth;
   height: $burgerWidth;
   cursor: pointer;
-  display: none;
 
   .burger-container {
     position: relative;
@@ -22,7 +21,7 @@ $burgerBarColor: white;
       &::before {
         position: absolute;
         content: '';
-        top: -6px;
+        top: -16px;
         left: -$burgerBarHeight;
         width: $burgerWidth - 2 * $burgerBarHeight;
         border: $burgerBarHeight solid $burgerBarColor;
@@ -32,7 +31,7 @@ $burgerBarColor: white;
       &::after {
         position: absolute;
         content: '';
-        top: 4px;
+        top: 12px;
         left: -$burgerBarHeight;
         width: $burgerWidth - 2 * $burgerBarHeight;
         border: $burgerBarHeight solid $burgerBarColor;
@@ -56,12 +55,5 @@ $burgerBarColor: white;
     top: -$burgerBarHeight;
     transform: rotate(45deg);
     transition: top ease-out .2s, transform .2s ease-out .3s;
-  }
-}
-
-@media (max-width: 1000px) {
-
-  .burger-menu{
-    display: block;
   }
 }
