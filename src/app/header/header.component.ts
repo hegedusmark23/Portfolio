@@ -1,21 +1,39 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { TranslationService } from '../app-translate/translation.service';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { BurgerMenuComponent } from "../burger-menu/burger-menu.component";
 
 @Component({
     selector: 'app-header',
     standalone: true,
     templateUrl: './header.component.html',
     styleUrl: './header.component.scss',
-    imports: [TranslateModule, CommonModule, FormsModule, BurgerMenuComponent]
+    imports: [TranslateModule, CommonModule, FormsModule]
 })
 export class HeaderComponent {
-  focusEffect: number | null = null;
-  activeLang: number | null = 1;
+focusEffect: number | null = null;
+activeLang: number | null = 1;
 model: any;
+@Input() init: boolean | undefined;
+  @Output() opened = new EventEmitter<any>();
+  overlayActive: boolean = false;
+  active = false;
+
+  ngOnInit() {
+    this.active = this.init || false;
+  }
+
+  toggleOverlay() {
+    this.overlayActive = !this.overlayActive;
+  }
+
+  onBurgerClicked() {
+    this.active = !this.active;
+    this.opened.emit();
+    this.toggleOverlay(); 
+  }
+
 constructor(private translationService: TranslationService){}
 
 setLanguage(lang: string, index: number) {

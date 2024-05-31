@@ -5,7 +5,7 @@
     <div class="nav-links">
        <a (click)="FocusEffectActive(1)" [ngClass]="{'focused': focusEffect === 1}" href="#about_me">{{'navigation.aboutme' | translate}}</a>
        <a (click)="FocusEffectActive(2)" [ngClass]="{'focused': focusEffect === 2}" href="#my_skills">Skills</a>
-       <a (click)="FocusEffectActive(3)" [ngClass]="{'focused': focusEffect === 3}" href="#portfolio">Portfolio</a>
+       <a (click)="FocusEffectActive(3)" [ngClass]="{'focused': focusEffect === 3}" href="#portfolio">Portfolio</a> 
        <div class="language-container">
         <a (click)="setLanguage('en', 1)" [ngClass]="{'activeLanguage': activeLang === 1}" style="cursor: pointer;">EN</a>
         <div class="separator"></div>
@@ -13,10 +13,23 @@
        </div>  
     </div>
 
-    <app-burger-menu class="burger-menu"></app-burger-menu>
+    <div class="burger-menu" [class.active]="active" (click)="onBurgerClicked()">
+        <div class="burger-container">
+          <div class="burger-inner"></div>
+        </div>
+      </div>
 
-    <div [ngClass]="">
-
+    <div [ngClass]="{'overlay-active': overlayActive, 'd-none': !overlayActive}">
+        <div class="overlay-links">
+            <a style="font-size: 23px;" (click)="toggleOverlay()" href="#about_me">{{'navigation.aboutme' | translate}}</a>
+            <a style="font-size: 23px;" (click)="toggleOverlay()" href="#my_skills">Skills</a>
+            <a style="font-size: 23px;" (click)="toggleOverlay()" href="#portfolio">Portfolio</a> 
+            <div class="language-container">
+             <a style="font-size: 23px;" (click)="setLanguage('en', 1)" [ngClass]="{'activeLanguage': activeLang === 1}" style="cursor: pointer;">EN</a>
+             <div class="separator"></div>
+             <a  style="font-size: 23px;"(click)="setLanguage('de', 2)" [ngClass]="{'activeLanguage': activeLang === 2}" style="cursor: pointer;">DE</a>
+            </div> 
+        </div>
     </div>
     
 </header>
