@@ -19,15 +19,16 @@
         </div>
       </div>
 
-    <div [ngClass]="{'overlay-active': overlayActive, 'd-none': !overlayActive}">
+    <div [ngClass]="{'overlay-active': overlayActive, 'overlay-inactive': !overlayActive}">
         <div class="overlay-links">
-            <a style="font-size: 23px;" (click)="toggleOverlay()" href="#about_me">{{'navigation.aboutme' | translate}}</a>
-            <a style="font-size: 23px;" (click)="toggleOverlay()" href="#my_skills">Skills</a>
-            <a style="font-size: 23px;" (click)="toggleOverlay()" href="#portfolio">Portfolio</a> 
+            <a style="font-size: 30px;" (click)="onBurgerClicked()" href="#about_me">{{'navigation.aboutme' | translate}}</a>
+            <a style="font-size: 30px;" (click)="onBurgerClicked()" href="#my_skills">Skills</a>
+            <a style="font-size: 30px;" (click)="onBurgerClicked()" href="#portfolio">Portfolio</a> 
+            <a style="font-size: 30px;" (click)="onBurgerClicked()" href="#contact">Contact</a>   
             <div class="language-container">
-             <a style="font-size: 23px;" (click)="setLanguage('en', 1)" [ngClass]="{'activeLanguage': activeLang === 1}" style="cursor: pointer;">EN</a>
+             <a style="font-size: 30px;" (click)="setLanguage('en', 1)" [ngClass]="{'activeLanguage': activeLang === 1}" style="cursor: pointer;">EN</a>
              <div class="separator"></div>
-             <a  style="font-size: 23px;"(click)="setLanguage('de', 2)" [ngClass]="{'activeLanguage': activeLang === 2}" style="cursor: pointer;">DE</a>
+             <a  style="font-size: 30px;"(click)="setLanguage('de', 2)" [ngClass]="{'activeLanguage': activeLang === 2}" style="cursor: pointer;">DE</a>
             </div> 
         </div>
     </div>

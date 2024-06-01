@@ -11,43 +11,51 @@ header {
     padding: 37px 100px 37px 100px;
     background-color: #141D2F;
     z-index: 999;
+
     >img {
         height: 50px;
         z-index: 1001;
     }
 }
 
-.overlay-active{
+.overlay-active {
     position: absolute;
     height: 100vh;
     width: 100%;
-    background-color: #141d2faf;
+    background-color: #141d2fc5;
     z-index: 1000;
     top: 0;
     left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: slide-in 0.2s both;
 }
 
-.overlay-links{
+.overlay-inactive {
+    animation: slide-out 0.5s both;
+    display: none;
+}
+
+.overlay-links {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
-.d-none{
+.d-none {
     display: none;
 }
 
-.language-container{
+.language-container {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.separator{
+.separator {
     width: 4px;
     height: 20px;
     background-color: #9747FF;
@@ -65,19 +73,20 @@ a {
     display: flex;
     gap: 20px;
 }
-.focused{
+
+.focused {
     border-bottom: 3px solid #9747FF;
-        padding-bottom: 1px;
-        border-radius: 2px;
-        color: #70E61C;
+    padding-bottom: 1px;
+    border-radius: 2px;
+    color: #70E61C;
 }
 
-.activeLanguage{
+.activeLanguage {
     color: #70E61C;
     font-weight: 700;
 }
 
-.burger-menu{
+.burger-menu {
     display: none;
 }
 
@@ -86,69 +95,89 @@ $burgerBarHeight: 2px;
 $burgerBarColor: white;
 
 .burger-menu {
-  width: $burgerWidth;
-  height: $burgerWidth;
-  cursor: pointer;
-  z-index: 1001;
+    width: $burgerWidth;
+    height: $burgerWidth;
+    cursor: pointer;
+    z-index: 1001;
 
-  .burger-container {
-    position: relative;
+    .burger-container {
+        position: relative;
 
-    .burger-inner {
-      position: absolute;
-      width: $burgerWidth - 2 * $burgerBarHeight;
-      left: 0px;
-      top: 11px;
-      border: $burgerBarHeight solid $burgerBarColor;
-      transition: border-color .2s ease-in .2s;
+        .burger-inner {
+            position: absolute;
+            width: $burgerWidth - 2 * $burgerBarHeight;
+            left: 0px;
+            top: 11px;
+            border: $burgerBarHeight solid $burgerBarColor;
+            transition: border-color .2s ease-in .2s;
 
-      &::before {
-        position: absolute;
-        content: '';
-        top: -16px;
-        left: -$burgerBarHeight;
-        width: $burgerWidth - 2 * $burgerBarHeight;
-        border: $burgerBarHeight solid $burgerBarColor;
-        transition: top .2s ease-in .3s, transform ease-in .2s;
-      }
+            &::before {
+                position: absolute;
+                content: '';
+                top: -16px;
+                left: -$burgerBarHeight;
+                width: $burgerWidth - 2 * $burgerBarHeight;
+                border: $burgerBarHeight solid $burgerBarColor;
+                transition: top .2s ease-in .3s, transform ease-in .2s;
+            }
 
-      &::after {
-        position: absolute;
-        content: '';
-        top: 12px;
-        left: -$burgerBarHeight;
-        width: $burgerWidth - 2 * $burgerBarHeight;
-        border: $burgerBarHeight solid $burgerBarColor;
-        transition: top .2s ease-in .3s, transform ease-in .2s;
-      }
+            &::after {
+                position: absolute;
+                content: '';
+                top: 12px;
+                left: -$burgerBarHeight;
+                width: $burgerWidth - 2 * $burgerBarHeight;
+                border: $burgerBarHeight solid $burgerBarColor;
+                transition: top .2s ease-in .3s, transform ease-in .2s;
+            }
+        }
     }
-  }
 
-  &.active .burger-container .burger-inner {
-    border-color: transparent;
-    transition: border-color ease-in .1s;
-  }
+    &.active .burger-container .burger-inner {
+        border-color: transparent;
+        transition: border-color ease-in .1s;
+    }
 
-  &.active .burger-container .burger-inner::before {
-    top: -$burgerBarHeight;
-    transform: rotate(-45deg);
-    transition: top ease-out .2s, transform .2s ease-out .3s;
-  }
+    &.active .burger-container .burger-inner::before {
+        top: -$burgerBarHeight;
+        transform: rotate(-45deg);
+        transition: top ease-out .2s, transform .2s ease-out .3s;
+    }
 
-  &.active .burger-container .burger-inner::after {
-    top: -$burgerBarHeight;
-    transform: rotate(45deg);
-    transition: top ease-out .2s, transform .2s ease-out .3s;
-  }
+    &.active .burger-container .burger-inner::after {
+        top: -$burgerBarHeight;
+        transform: rotate(45deg);
+        transition: top ease-out .2s, transform .2s ease-out .3s;
+    }
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-out {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
 }
 
 @media (max-width: 1000px) {
 
-    .nav-links{
+    .nav-links {
         display: none;
     }
 
-    .burger-menu{
+    .burger-menu {
         display: block;
     }
 }

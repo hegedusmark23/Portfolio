@@ -5,20 +5,22 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-    selector: 'app-header',
-    standalone: true,
-    templateUrl: './header.component.html',
-    styleUrl: './header.component.scss',
-    imports: [TranslateModule, CommonModule, FormsModule]
+  selector: 'app-header',
+  standalone: true,
+  templateUrl: './header.component.html',
+  styleUrl: './header.component.scss',
+  imports: [TranslateModule, CommonModule, FormsModule]
 })
 export class HeaderComponent {
-focusEffect: number | null = null;
-activeLang: number | null = 1;
-model: any;
-@Input() init: boolean | undefined;
+  focusEffect: number | null = null;
+  activeLang: number | null = 1;
+  model: any;
+  @Input() init: boolean | undefined;
   @Output() opened = new EventEmitter<any>();
   overlayActive: boolean = false;
   active = false;
+
+  constructor(private translationService: TranslationService) { }
 
   ngOnInit() {
     this.active = this.init || false;
@@ -31,18 +33,16 @@ model: any;
   onBurgerClicked() {
     this.active = !this.active;
     this.opened.emit();
-    this.toggleOverlay(); 
+    this.toggleOverlay();
   }
 
-constructor(private translationService: TranslationService){}
+  setLanguage(lang: string, index: number) {
+    this.translationService.setDefaultLang(lang);
+    this.activeLang = index;
+  }
 
-setLanguage(lang: string, index: number) {
-  this.translationService.setDefaultLang(lang);
-  this.activeLang = index;
-}
-
-FocusEffectActive(index: number){
-  this.focusEffect = index
-}
+  FocusEffectActive(index: number) {
+    this.focusEffect = index
+  }
 
 }
