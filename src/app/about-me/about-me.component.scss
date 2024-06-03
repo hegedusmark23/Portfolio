@@ -95,3 +95,33 @@
         height: 50px;
     }
 }
+
+@media (max-width:1570px) {
+    .portrait[_ngcontent-ng-c3690475362] {
+        height: 404px;
+    }
+
+    .green-line[_ngcontent-ng-c3690475362] {
+        width: 250px;
+    }
+}
+
+@media (max-width:1300px) {
+    .portrait[_ngcontent-ng-c3690475362] {
+        height: 304px;
+    }
+
+    .green-line[_ngcontent-ng-c3690475362] {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .portrait-container[_ngcontent-ng-c3690475362] {
+        display: none;
+    }
+
+    .about-me-section[_ngcontent-ng-c3690475362] {
+        justify-content: center;
+    }
+}

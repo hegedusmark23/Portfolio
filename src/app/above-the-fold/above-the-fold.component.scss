@@ -76,12 +76,12 @@ h2 {
 }
 
 .self-portrait {
-    height: 800px;
+    height: 700px;
     object-fit: contain;
     position: absolute;
     z-index: 1;
-    left: 100px;
-    top: 100px;
+    left: 120px;
+    top: 200px;
 }
 
 .purp-green-clouds {
@@ -121,3 +121,51 @@ h2 {
     75%  {top: 923px}
     100% {top: 873px;}
   }
+
+  @media (max-width:1570px) {
+    .atf-text-container{
+        h1{
+            font-size: 60px;
+        }
+
+        h2{
+            font-size: 45px;
+        }
+
+        p{
+            font-size: 44px;
+        }
+    }
+  }
+
+  @media (max-width:1400px) {
+    .atf-text-container{
+        h1{
+            font-size: 50px;
+        }
+
+        h2{
+            font-size: 35px;
+        }
+
+        p{
+            font-size: 34px;
+        }
+    }
+
+    .self-portrait[_ngcontent-ng-c2367562783] {
+        height: 600px;
+    }
+
+    .purp-green-clouds[_ngcontent-ng-c2367562783] {
+        height: 800px;
+    }
+  }
+
+  @media (max-width:1000px) {
+    .atf-text-container[_ngcontent-ng-c2367562783] {
+        top: 697px;
+        right: 0;
+        left: 0;
+  }
+}

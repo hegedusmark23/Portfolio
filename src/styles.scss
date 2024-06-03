@@ -14,17 +14,23 @@
 
 * {
     color: white;
+    scrollbar-color: #9747FF #141D2F;
+    scrollbar-color: #141D2F #9747FF;
 }
 
 html{
     scroll-behavior: smooth;
+    display: table;
+    margin: auto;
+}
+
+html, body {
+    height: 100%;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
     box-sizing: border-box;
     background-color: #141D2F;
     font-family: 'Poppins';
