@@ -160,3 +160,11 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+
+@media (max-width: 1350px) {
+    .input-design[_ngcontent-ng-c1679057741] {
+        max-width: 617px;
+        width: 517px !important;
+    }
+}
+

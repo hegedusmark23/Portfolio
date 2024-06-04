@@ -25,17 +25,17 @@
     
     <h3>{{ 'privacyPolicy.dataTypes' | translate }}</h3>
     <ul>
-        <li *ngFor="let item of 'privacyPolicy.dataTypesList' | translate">{{ item }}</li>
+        <li *ngFor="let item of dataTypesList">{{ item }}</li>
     </ul>
     
     <h3>{{ 'privacyPolicy.categories' | translate }}</h3>
     <ul>
-        <li *ngFor="let item of 'privacyPolicy.categoriesList' | translate">{{ item }}</li>
+        <li *ngFor="let item of categoriesList">{{ item }}</li>
     </ul>
     
     <h3>{{ 'privacyPolicy.purposes' | translate }}</h3>
     <ul>
-        <li *ngFor="let item of 'privacyPolicy.purposesList' | translate">{{ item }}</li>
+        <li *ngFor="let item of purposesList">{{ item }}</li>
     </ul>
     
     <h2 id="m2427">{{ 'privacyPolicy.legalBasesTitle' | translate }}</h2>
@@ -66,8 +66,9 @@
         <a href="https://datenschutz-generator.de/" title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken." target="_blank" rel="noopener noreferrer nofollow">{{ 'privacyPolicy.seal' | translate }}</a>
     </p>
     
-<a class="up-btn" href="#contact"><img [src]="imgSrc"
-    (mouseover)="imgSrc = '../../assets/img/design-components/goup-btn-green.png'"
-    (mouseout)="imgSrc = '../../assets/img/design-components/goup-btn.png'">
-</a>  
+    <a class="up-btn" href="#contact">
+        <img [src]="imgSrc"
+            (mouseover)="imgSrc = '../../assets/img/design-components/goup-btn-green.png'"
+            (mouseout)="imgSrc = '../../assets/img/design-components/goup-btn.png'">
+    </a>
 </section>

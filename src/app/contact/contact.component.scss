@@ -7,12 +7,12 @@
     height: 100%;
     z-index: 998;
     display: flex;
-   
+
     flex-direction: column;
     padding: 100px 0;
 }
 
-.contact-content{
+.contact-content {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -20,33 +20,37 @@
 
 
 
-.text-area{
+.text-area {
     max-width: 473px;
-    h1{
+
+    h1 {
         font-size: 90px;
         font-weight: 700;
     }
-    h2{
+
+    h2 {
         font-size: 32px;
         font-weight: 700;
     }
-    p{
+
+    p {
         font-size: 16px;
         font-weight: 400;
         line-height: 19.2px;
     }
 }
 
-.purple-line{
+.purple-line {
     height: 4px;
     width: 50px;
     background-color: #9747FF;
     border-radius: 4px;
 }
 
-.contact-headline{
+.contact-headline {
     width: 100%;
-    h1{
+
+    h1 {
         font-size: 90px;
         font-weight: 700;
         margin-block-start: 0px;
@@ -54,7 +58,7 @@
     }
 }
 
-.up-btn{
+.up-btn {
     position: absolute;
     right: 100px;
     bottom: 100px;
@@ -63,9 +67,40 @@
 }
 
 @keyframes mymove {
-    0%   {bottom: 100px;}
-    25%   {bottom: 102px;}
-    50%   {bottom: 105px;}
-    75%   {bottom: 102px;}
-    100% {bottom: 100px;}
-  }
+    0% {
+        bottom: 100px;
+    }
+
+    25% {
+        bottom: 102px;
+    }
+
+    50% {
+        bottom: 105px;
+    }
+
+    75% {
+        bottom: 102px;
+    }
+
+    100% {
+        bottom: 100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact-content[_ngcontent-ng-c3406187909] {
+        flex-direction: column;
+        gap: 60px;
+        align-items: center;
+        z-index: 988;
+    }
+
+    .text-area[_ngcontent-ng-c3406187909] {
+        max-width: 517px;
+    }
+
+    .contact[_ngcontent-ng-c3406187909] {
+        margin: 0;
+    }
+}

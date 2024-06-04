@@ -5,7 +5,7 @@
     "aboutMe": {
         "headline": "Über mich",
         "text1": "Ich bin ein Frontend-Entwickler und lebe derzeit in Weinfelden, Schweiz. Ich spezialisiere mich auf die Erstellung intuitiver und ansprechender Benutzeroberflächen und nutze dabei die neuesten Technologien und Best Practices der Webentwicklung. Meine Leidenschaft liegt darin, nahtlose und effiziente Benutzererfahrungen zu gestalten.",
-        "text2": "Analytisches Denken und Problemlösung sind meine Stärken. Ich bin hervorragend darin, komplexe Probleme in überschaubare Teile zu zerlegen und effektive Lösungen zu finden. Mein methodischer Ansatz und meine Liebe zum Detail gewährleisten, dass ich stets qualitativ hochwertige Ergebnisse liefere.",
+        "text2": "Analytisches Denken und Problemlösung sind meine Stärken. Ich bin hervorragend darin, komplexe Probleme in überschaubaren Teilen zu zerlegen und effektive Lösungen zu finden. Mein methodischer Ansatz und meine Liebe zum Detail gewährleisten, dass ich stets qualitativ hochwertige Ergebnisse liefere.",
         "text3": "Ich bin ein guter Teamspieler und schätze die Bedeutung der Zusammenarbeit sehr. Ich glaube, dass das gemeinsame Arbeiten und das Nutzen der Stärken jedes Teammitglieds zu besseren Ergebnissen führt und ein positives Arbeitsumfeld schafft. Meine kooperative Einstellung und Kommunikationsfähigkeiten ermöglichen es mir, effektiv zu jedem Team beizutragen."
     },
     "mySkills": {
@@ -15,7 +15,7 @@
     },
     "portfolio": {
         "text": "Entdecken Sie hier eine Auswahl meiner Arbeit - bitte probieren Sie sie aus.",
-        "joinDescription": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+        "joinDescription": "Task-Manager, inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
         "elPolloLocoDescription": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Helfen Sie Pepe, Münzen zu sammeln und die Hühner zu besiegen.",
         "pokedexDescription": "Basierend auf der PokéAPI eine einfache Bibliothek, die Pokémon-Informationen bereitstellt und katalogisiert."
     },
@@ -28,7 +28,7 @@
     },
     "contactForm": {
         "privacyPolicy1": "Ich habe die ",
-        "privacyPolicy2": "gelesen und stimme der Verarbeitung meiner Daten gemäß den Bestimmungen zu.",
+        "privacyPolicy2": "gelesen und stimme der Verarbeitung meiner Daten gemäss den Bestimmungen zu.",
         "link": "Datenschutzerklärung",
         "placeholderName": "Ihr Name",
         "placeholderEmail": "Ihre E-Mail",
