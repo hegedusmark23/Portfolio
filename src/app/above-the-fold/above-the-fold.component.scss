@@ -3,7 +3,6 @@
     width: 100%;
     max-width: 1920px !important;
     background-color: #141D2F;
-    position: relative;
     display: flex;
     margin: auto;
 }
@@ -30,6 +29,7 @@
     right: 160px;
     z-index: 998;
     gap: 0px;
+    white-space: nowrap;
 }
 
 .atf-inner-text-container {
@@ -116,39 +116,50 @@ h2 {
 }
 
 @keyframes mymove {
-    0%   {top: 873px;}
-    25%  {top: 943px;}
-    75%  {top: 923px}
-    100% {top: 873px;}
-  }
+    0% {
+        top: 873px;
+    }
 
-  @media (max-width:1570px) {
-    .atf-text-container{
-        h1{
+    25% {
+        top: 943px;
+    }
+
+    75% {
+        top: 923px
+    }
+
+    100% {
+        top: 873px;
+    }
+}
+
+@media (max-width:1570px) {
+    .atf-text-container {
+        h1 {
             font-size: 60px;
         }
 
-        h2{
+        h2 {
             font-size: 45px;
         }
 
-        p{
+        p {
             font-size: 44px;
         }
     }
-  }
+}
 
-  @media (max-width:1400px) {
-    .atf-text-container{
-        h1{
+@media (max-width:1400px) {
+    .atf-text-container {
+        h1 {
             font-size: 50px;
         }
 
-        h2{
+        h2 {
             font-size: 35px;
         }
 
-        p{
+        p {
             font-size: 34px;
         }
     }
@@ -160,16 +171,174 @@ h2 {
     .purp-green-clouds[_ngcontent-ng-c2367562783] {
         height: 800px;
     }
-  }
-
-  @media (max-width:1000px) {
-    .atf-text-container[_ngcontent-ng-c2367562783] {
-        top: 697px;
-        right: 0;
-        left: 0;
-  }
-
-  .scroll-down-text {
-    display: none;
 }
+
+@media (max-width:1100px) {
+
+    .self-portrait[_ngcontent-ng-c1357743221] {
+        height: 600px;
+        left: 80px;
+        top: 150px;
+    }
+
+    .purp-green-clouds[_ngcontent-ng-c1357743221] {
+        height: 800px;
+        position: relative;
+        top: 200px;
+        left: -100px;
+    }
+}
+
+@media (max-width:1000px) {
+    .atf-text-container {
+        top: 650px;
+        left: 0;
+        right: 0;
+    }
+
+    .scroll-down-text {
+        display: none;
+    }
+}
+
+@media (max-width:920px) {
+
+    .atf-text-container[_ngcontent-ng-c1357743221] {
+        top: 600px;
+    }
+
+    .self-portrait[_ngcontent-ng-c1357743221] {
+        height: 600px;
+        left: 80px;
+        top: 110px;
+    }
+
+    .purp-green-clouds[_ngcontent-ng-c1357743221] {
+        height: 800px;
+        position: relative;
+        top: 100px;
+        left: -100px;
+    }
+}
+
+@media (max-width:780px) {
+
+    .atf-text-container[_ngcontent-ng-c1357743221] {
+        top: 600px;
+    }
+
+    .self-portrait[_ngcontent-ng-c1357743221] {
+        height: 500px;
+        left: 80px;
+        top: 150px;
+    }
+
+    .purp-green-clouds[_ngcontent-ng-c1357743221] {
+        height: 600px;
+        position: relative;
+        top: 120px;
+        left: -50px;
+    }
+}
+
+@media (max-width:575px) {
+    .separator[_ngcontent-ng-c1357743221] {
+        top: 390px;
+    }
+
+    .self-portrait[_ngcontent-ng-c1357743221] {
+        height: 400px;
+        left: 80px;
+        top: 150px;
+    }
+
+    .purp-green-clouds[_ngcontent-ng-c1357743221] {
+        height: 500px;
+        position: relative;
+        top: 120px;
+        left: -50px;
+    }
+
+    .atf-text-container[_ngcontent-ng-c1357743221] {
+        top: 600px;
+    }
+
+    h1{
+        font-size: 40px !important;
+    }
+
+    h2{
+        font-size: 28px !important;
+    }
+
+    p{
+        font-size: 28px !important;
+    }
+
+    .green-btn {
+        font-size: 20px;
+        margin-top: 30px !important;
+    }
+}
+
+@media (max-width:480px) {
+
+    .self-portrait[_ngcontent-ng-c1357743221] {
+        height: 400px;
+        left: 80px;
+        top: 150px;
+    }
+
+    .purp-green-clouds[_ngcontent-ng-c1357743221] {
+        height: 500px;
+        position: relative;
+        top: 120px;
+        left: -50px;
+    }
+
+    .atf-text-container[_ngcontent-ng-c1357743221] {
+        top: 550px;
+    }
+}
+
+@media (max-width:450px) {
+
+    .self-portrait[_ngcontent-ng-c1357743221] {
+        left: 40px;
+    }
+
+    .purp-green-clouds[_ngcontent-ng-c1357743221] {
+        left: -70px;
+    }
+
+    h1{
+        font-size: 30px !important;
+    }
+
+    h2{
+        font-size: 21px !important;
+    }
+
+    p{
+        font-size: 21px !important;
+    }
+
+    .green-btn {
+        font-size: 15px;
+        margin-top: 30px !important;
+    }
+}
+
+@media (max-width:400px) {
+
+    .self-portrait[_ngcontent-ng-c1357743221] {
+        left: 30px;
+        top: 150px;
+        height: 350px;
+    }
+
+    .purp-green-clouds[_ngcontent-ng-c1357743221] {
+        left: -70px;
+        height: 450px;
+    }
 }
