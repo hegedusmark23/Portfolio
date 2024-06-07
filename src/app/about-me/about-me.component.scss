@@ -133,3 +133,35 @@
     padding-left: 0px;
    }
 }
+
+@media (max-width: 650px) {
+    .text-section{
+        max-width: 400px;
+    }
+
+    .text-section[_ngcontent-ng-c3690475362] > h1[_ngcontent-ng-c3690475362] {
+        font-size: 50px;
+    }
+
+    .text-section[_ngcontent-ng-c3690475362] > p[_ngcontent-ng-c3690475362] {
+        font-size: 16px;
+    }
+
+    .sub-text-section{
+        p{
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .social-links-section{
+        img{
+            height: 28px;
+        }
+    }
+
+    .purple-line[_ngcontent-ng-c3690475362] {
+        width: 70px;
+    }
+}

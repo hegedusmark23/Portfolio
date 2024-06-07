@@ -1,15 +1,16 @@
 .above-the-fold {
     height: 100vh;
     width: 100%;
-    max-width: 1920px !important;
+    max-width: 1920px;
     background-color: #141D2F;
     display: flex;
-    margin: auto;
+    margin: 0 auto;
+    position: relative;
 }
 
 
 .separator {
-    width: 100% !important;
+    width: 100%;
     position: absolute;
     top: 320px;
     z-index: 2;
@@ -76,12 +77,12 @@ h2 {
 }
 
 .self-portrait {
-    height: 700px;
+    height: 1000px;
     object-fit: contain;
     position: absolute;
     z-index: 1;
-    left: 120px;
-    top: 200px;
+    left: 0px;
+    top: 50px;
 }
 
 .purp-green-clouds {
@@ -177,8 +178,8 @@ h2 {
 
     .self-portrait[_ngcontent-ng-c1357743221] {
         height: 600px;
-        left: 80px;
-        top: 150px;
+        left: 100px;
+        top: 90px;
     }
 
     .purp-green-clouds[_ngcontent-ng-c1357743221] {
@@ -195,9 +196,27 @@ h2 {
         left: 0;
         right: 0;
     }
+}
+
+@media (max-width:1000px) {
+    .atf-text-container {
+        top: 650px;
+        left: 0;
+        right: 0;
+    }
 
     .scroll-down-text {
         display: none;
+    }
+
+    .self-portrait[_ngcontent-ng-c1357743221] {
+        left: 130px;
+        top: 90px;
+    }
+
+    .purp-green-clouds[_ngcontent-ng-c1357743221] {
+        top: 100px;
+        left: 0px;
     }
 }
 
@@ -332,7 +351,7 @@ h2 {
 @media (max-width:400px) {
 
     .self-portrait[_ngcontent-ng-c1357743221] {
-        left: 30px;
+        left: 40px;
         top: 150px;
         height: 350px;
     }
@@ -340,5 +359,19 @@ h2 {
     .purp-green-clouds[_ngcontent-ng-c1357743221] {
         left: -70px;
         height: 450px;
+    }
+}
+
+
+@media (max-width:375px) {
+
+    .self-portrait[_ngcontent-ng-c1357743221] {
+        left: 30px;
+        top: 150px;
+        height: 350px;
+    }
+
+    .atf-text-container[_ngcontent-ng-c1357743221] {
+        top: 520px;
     }
 }
