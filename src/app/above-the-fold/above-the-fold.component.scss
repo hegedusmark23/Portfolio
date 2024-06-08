@@ -4,13 +4,17 @@
     max-width: 1920px;
     background-color: #141D2F;
     display: flex;
+    justify-content: center; 
+    align-items: center;    
     margin: 0 auto;
+    flex-direction: column;
     position: relative;
 }
 
 
 .separator {
     width: 100%;
+    left: 0;
     position: absolute;
     top: 320px;
     z-index: 2;
@@ -24,13 +28,14 @@
 .atf-text-container {
     display: flex;
     align-items: center;
-    position: absolute;
     flex-direction: column;
-    top: 297px;
-    right: 160px;
-    z-index: 998;
     gap: 0px;
     white-space: nowrap;
+    z-index: 998;
+    position: absolute;
+    top: 297px;
+    right: 160px;
+  
 }
 
 .atf-inner-text-container {
@@ -87,7 +92,7 @@ h2 {
 
 .purp-green-clouds {
     height: 1000px;
-    position: relative;
+    position: absolute;
     z-index: 0;
     top: 200px;
     left: -100px;
@@ -200,9 +205,9 @@ h2 {
 
 @media (max-width:1000px) {
     .atf-text-container {
-        top: 650px;
-        left: 0;
-        right: 0;
+        top: 750px;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .scroll-down-text {
@@ -210,7 +215,7 @@ h2 {
     }
 
     .self-portrait[_ngcontent-ng-c1357743221] {
-        left: 130px;
+        left: 180px;
         top: 90px;
     }
 
@@ -223,12 +228,12 @@ h2 {
 @media (max-width:920px) {
 
     .atf-text-container[_ngcontent-ng-c1357743221] {
-        top: 600px;
+        top: 700px;
     }
 
     .self-portrait[_ngcontent-ng-c1357743221] {
         height: 600px;
-        left: 80px;
+        left: 120px;
         top: 110px;
     }
 
@@ -243,12 +248,12 @@ h2 {
 @media (max-width:780px) {
 
     .atf-text-container[_ngcontent-ng-c1357743221] {
-        top: 600px;
+        top: 650px;
     }
 
     .self-portrait[_ngcontent-ng-c1357743221] {
         height: 500px;
-        left: 80px;
+        left: 120px;
         top: 150px;
     }
 
@@ -268,29 +273,29 @@ h2 {
     .self-portrait[_ngcontent-ng-c1357743221] {
         height: 400px;
         left: 80px;
-        top: 150px;
+        top: 190px;
     }
 
     .purp-green-clouds[_ngcontent-ng-c1357743221] {
         height: 500px;
         position: relative;
-        top: 120px;
-        left: -50px;
+        top: 40px;
+        left: -80px;
     }
 
     .atf-text-container[_ngcontent-ng-c1357743221] {
-        top: 600px;
+        top: 650px;
     }
 
-    h1{
+    h1 {
         font-size: 40px !important;
     }
 
-    h2{
+    h2 {
         font-size: 28px !important;
     }
 
-    p{
+    p {
         font-size: 28px !important;
     }
 
@@ -316,7 +321,7 @@ h2 {
     }
 
     .atf-text-container[_ngcontent-ng-c1357743221] {
-        top: 550px;
+        top: 650px;
     }
 }
 
@@ -330,15 +335,15 @@ h2 {
         left: -70px;
     }
 
-    h1{
+    h1 {
         font-size: 30px !important;
     }
 
-    h2{
+    h2 {
         font-size: 21px !important;
     }
 
-    p{
+    p {
         font-size: 21px !important;
     }
 
@@ -366,12 +371,12 @@ h2 {
 @media (max-width:375px) {
 
     .self-portrait[_ngcontent-ng-c1357743221] {
-        left: 30px;
+        left: 20px;
         top: 150px;
         height: 350px;
     }
 
     .atf-text-container[_ngcontent-ng-c1357743221] {
-        top: 520px;
+        top: 600px;
     }
 }
