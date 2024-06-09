@@ -11,7 +11,8 @@ form {
 .padding::-webkit-input-placeholder {
     padding-top: 10px;
     font-size: 16px;
-    font-family: 'Poppins'; }
+    font-family: 'Poppins'; 
+}
  
  .padding::-moz-input-placeholder {
     padding-top: 10px;
@@ -46,7 +47,7 @@ form {
 
     a {
         text-decoration: none;
-        color: #9747FF;
+        color: #70E61C;
 
         &:hover {
             text-decoration: underline;
@@ -164,7 +165,7 @@ form {
 
 @media (max-width: 1350px) {
     .input-design[_ngcontent-ng-c1679057741] {
-        max-width: 617px;
+        max-width: 517px;
         width: 517px !important;
     }
 }
@@ -172,7 +173,7 @@ form {
 @media (max-width: 600px) {
 
     .input-design[_ngcontent-ng-c1679057741] {
-        max-width: 617px;
+        max-width: 417px;
         width: 417px !important;
     }
 
@@ -182,4 +183,75 @@ form {
             font-size: 12px !important;
         }
     }
+
+    .disabled-submit[_ngcontent-ng-c1679057741] {
+        padding: 10px 25px 10px 25px;
+        font-size: 18px;
+    }
+
+    .abled-submit[_ngcontent-ng-c1679057741] {
+        padding: 10px 25px 10px 25px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .input-design[_ngcontent-ng-c1679057741] {
+        max-width: 317px;
+        width: 317px !important;
+        font-size: 13px !important;
+    }
+
+    .input-icon[_ngcontent-ng-c1679057741] {
+        right: 7px;
+        top: 5px;
+        height: 20px;
+    }
+
+    .padding::-webkit-input-placeholder {
+        font-size: 13px; 
+    }
+
+    .input-thin[_ngcontent-ng-c1679057741] {
+        height: 30px;
+    }
+
+    .privacyP-container[_ngcontent-ng-c1679057741] {
+        width: 317px !important;
+        p{
+            font-size: 12px !important;
+        }
+    }
+}
+
+@media (max-width: 370px) {
+
+    .input-design[_ngcontent-ng-c1679057741] {
+        max-width: 280px;
+        width: 280px !important;
+        font-size: 13px !important;
+    }
+
+    .input-icon[_ngcontent-ng-c1679057741] {
+        right: 7px;
+        top: 3px;
+        height: 16px;
+    }
+
+    .padding::-webkit-input-placeholder {
+        font-size: 13px; 
+    }
+
+    .input-thin[_ngcontent-ng-c1679057741] {
+        height: 20px;
+    }
+
+    .privacyP-container[_ngcontent-ng-c1679057741] {
+        width: 280px !important;
+        p{
+            font-size: 12px !important;
+        }
+    }
+
 }

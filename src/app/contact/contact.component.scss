@@ -65,6 +65,14 @@
     animation: mymove 0.5s infinite;
 }
 
+.shadow {
+    position: absolute !important;
+    bottom: 0px;
+    left: 0px;
+    height: 500px;
+    z-index: 0 !important;
+}
+
 @keyframes mymove {
     0% {
         bottom: 100px;
@@ -110,16 +118,17 @@
         bottom: -30px;
     }
 
-    .contact-headline{
-        h1{
+    .contact-headline {
+        h1 {
             font-size: 50px;
         }
     }
 
-    .text-area{
+    .text-area {
         width: 430px !important;
-        padding: 50px;
-        h2{
+        padding: 0 50px;
+
+        h2 {
             font-size: 25px;
         }
     }
@@ -128,6 +137,49 @@
         width: 417px !important;
     }
 
-    
+    .shadow {
+        height: 400px !important;
 
+    }
+
+    .up-btn{
+        img{
+           height: 30px; 
+        }
+        
+    }
+}
+
+@media (max-width: 530px) {
+    .text-area {
+        width: 330px !important;
+        padding: 0 50px;
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 14px;
+        }
+    }
+
+    .up-btn[_ngcontent-ng-c3406187909][_ngcontent-ng-c3406187909] {
+        right: 25px;
+    }
+}
+
+@media (max-width: 375px) {
+    .text-area {
+        width: 280px !important;
+        padding: 0 20px;
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
 }

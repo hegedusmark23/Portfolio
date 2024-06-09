@@ -18,6 +18,7 @@ footer{
     display: flex;
     flex-direction: column;
     height: 100px;
+    padding-top: 35px;
     img{
         height: 60px;
         object-fit: contain;
@@ -25,16 +26,21 @@ footer{
     }
 }
 
+.impressum-mobile{
+    display: none;
+    text-decoration: none;
+    bottom: 15px;
+        &:hover {
+            color: #70E61C;
+        }
+}
+
 .impressum{
     position: absolute;
     text-decoration: none;
     bottom: 15px;
         &:hover {
-            border-bottom: 3px solid #9747FF;
-            padding-bottom: 1px;
-            border-radius: 2px;
             color: #70E61C;
-            width: 50%;
         }
 }
 
@@ -46,5 +52,38 @@ footer{
         &:hover{
             transform: scale(1.2);
         }
+    }
+}
+
+@media (max-width: 1000px) {
+    .links-container{
+        gap: 30px;
+    }
+}
+
+@media (max-width: 855px) {
+    footer[_ngcontent-ng-c3509895746] {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        gap: 30px;
+        height: 350px;
+    }
+
+    .logo-container[_ngcontent-ng-c3509895746] {
+        padding-top: 0px;
+        height: 50px;
+    }
+
+    .impressum{
+        display: none;
+    }
+    
+    .impressum-mobile{
+        display: flex;
     }
 }

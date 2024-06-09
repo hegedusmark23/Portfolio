@@ -18,6 +18,7 @@
     align-items: center;
     width: 100vw;
     max-width: 1920px;
+
     h1 {
         font-size: 90px;
         font-weight: 700;
@@ -45,6 +46,7 @@
     align-items: center;
     justify-content: center;
     gap: 100px;
+
     h1,
     h2,
     p {
@@ -113,32 +115,128 @@
 }
 
 @media (max-width: 1540px) {
-    .purple-line-long[_ngcontent-ng-c4114981508] {
+    .purple-line-long {
         width: 500px;
     }
 }
 
 @media (max-width: 1340px) {
-    .purple-line-long[_ngcontent-ng-c4114981508] {
-        width: 400px;
+    .purple-line-long {
+        width: 350px;
     }
 }
 
 @media (max-width: 1000px) {
-    .purple-line-long[_ngcontent-ng-c4114981508] {
-        width: 300px;
+    .purple-line-long {
+        width: 250px;
     }
 
     .project-element {
-       flex-direction: column !important;
-       gap: 0px;
+        flex-direction: column !important;
+        gap: 0px;
     }
 
-    .purple-shadow{
+    .purple-shadow {
         top: 700px !important;
     }
 
-    .project-description{
+    .project-description {
         align-items: center !important;
+    }
+    .portfolio {
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .purple-line-long {
+        width: 200px;
+    }
+}
+
+@media (max-width: 800px) {
+    .purple-line-long {
+        width: 150px;
+    }
+}
+
+@media (max-width: 750px) {
+    .purple-line-long {
+        width: 100px;
+    }
+
+    .purple-shadow {
+        top: 500px !important;
+        height: 600px;
+    }
+
+    .green-shadow {
+        height: 600px;
+    }
+
+    .portfolio-headline {
+        h1 {
+            font-size: 50px;
+        }
+    }
+
+    .project-element {
+        img {
+            height: 300px;
+        }
+
+        h1 {
+            font-size: 25px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .purple-btn {
+        padding: 10px 25px 10px 25px;
+    }
+
+    .transparent-btn {
+        padding: 10px 25px 10px 25px;
+    }
+}
+
+@media (max-width: 625px) {
+    .project-description {
+        width: 400px;
+    }
+
+    .project-element {
+        img {
+            height: 300px;
+        }
+
+        h1 {
+            font-size: 25px;
+        }
+
+        h2 {
+            font-size: 20px;
+            text-align: center;
+           
+        }
+    }
+
+    .portfolio-headline{
+        p {
+            text-align: center;
+            width: 400px;
+        }
+    }
+
+    .purple-line-short{
+        width: 20px;
     }
 }
