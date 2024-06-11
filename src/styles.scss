@@ -19,7 +19,6 @@
 
 html{
     scroll-behavior: smooth;
-    display: table;
     margin: auto;
 }
 
@@ -28,12 +27,11 @@ html, body {
 }
 
 body {
-    display: table-cell;
-    vertical-align: middle;
-    box-sizing: border-box;
+    margin: 0 auto;
     background-color: #141D2F;
     font-family: 'Poppins';
     overflow-x: hidden;
+    display: table;
 }
 
 

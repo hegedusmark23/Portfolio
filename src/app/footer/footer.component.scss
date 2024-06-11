@@ -87,3 +87,19 @@ footer{
         display: flex;
     }
 }
+
+@media (max-width: 500px) {
+    footer{
+        p{
+            white-space: nowrap;
+            font-size: 18px;
+        }
+        padding: 0 0;
+    }
+
+    .logo-container{
+        img{
+            height: 40px;
+        }
+    }
+}

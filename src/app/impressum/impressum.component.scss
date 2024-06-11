@@ -8,7 +8,42 @@ section{
 .up-btn{
     position: absolute;
     right: 100px;
-    top: 200px;
+    top: 130px;
     z-index: 989;
     transform: rotate(-90deg);
+}
+
+@media (max-width: 1000px) {
+    section{
+        padding: 100px 50px; 
+    }
+}
+
+@media (max-width: 500px) {
+
+    .up-btn{
+        right: 20px;
+        top: 130px;
+        img{
+            height: 30px;
+        }
+    }
+    section{
+        padding: 100px 20px; 
+        h1, h2, h3{
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    section{
+        width: 300px;
+        margin: 0;
+        padding: 100px 10px; 
+    }
 }

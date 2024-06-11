@@ -195,11 +195,21 @@ h2 {
     }
 }
 
-@media (max-width:1000px) {
+@media (max-width:1023px) {
     .atf-text-container {
         top: 650px;
         left: 0;
         right: 0;
+    }
+
+    .purp-green-clouds{
+        top: -121px;
+        left: -26px;
+    }
+
+    .self-portrait{
+        left: 218px;
+        top: 83px;
     }
 }
 
