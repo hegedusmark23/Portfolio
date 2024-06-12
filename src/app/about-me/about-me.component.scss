@@ -1,5 +1,4 @@
-
-.about-me{
+.about-me {
     height: 100vh;
     width: 100%;
     max-width: 1440px !important;
@@ -13,72 +12,75 @@
     padding-top: 100px;
 }
 
-.social-links-section{
+.social-links-section {
     display: flex;
     align-items: center;
     z-index: 7;
     gap: 42px;
-    >img{
+
+    >img {
         height: 32px;
-        
+
     }
 }
 
-.about-me-section{
+.about-me-section {
     z-index: 4;
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-.social-logos{
+.social-logos {
     transition: transform 0.2s ease-in-out;
-        &:hover{
-            transform: scale(1.3);
-        }
+
+    &:hover {
+        transform: scale(1.3);
+    }
 }
 
-.mail{
+.mail {
     text-decoration: none;
     font-size: 23px;
 }
 
-.purple-line{
+.purple-line {
     width: 100px;
     height: 4px;
     border-radius: 4px;
     background-color: #9747FF;
 }
 
-.purple-shadow{
+.purple-shadow {
     position: absolute;
     right: 0;
     top: 0;
 }
 
-.portrait-container{
+.portrait-container {
     display: flex;
     align-items: center;
     z-index: 5;
 }
 
-.portrait{
+.portrait {
     height: 504px;
     border-radius: 50%;
     border: 4px solid #70E61C;
 }
 
-.green-line{
+.green-line {
     width: 167px;
     height: 4px;
     background-color: #70E61C;
 }
 
-.text-section{
+.text-section {
     padding-left: 100px;
     max-width: 500px;
     z-index: 999;
-    >h1{
+
+    >h1 {
         font-size: 90px;
         font-weight: bold;
         line-height: 108px;
@@ -87,81 +89,82 @@
     }
 }
 
-.sub-text-section{
+.sub-text-section {
     display: flex;
     align-items: center;
     gap: 10px;
-    >img{
+
+    >img {
         height: 50px;
     }
 }
 
 @media (max-width:1570px) {
-    .portrait[_ngcontent-ng-c3690475362] {
+    .portrait {
         height: 404px;
     }
 
-    .green-line[_ngcontent-ng-c3690475362] {
+    .green-line {
         width: 250px;
     }
 }
 
 @media (max-width:1300px) {
-    .portrait[_ngcontent-ng-c3690475362] {
+    .portrait {
         height: 304px;
     }
 
-    .green-line[_ngcontent-ng-c3690475362] {
+    .green-line {
         width: 100px;
     }
 }
 
 @media (max-width: 1000px) {
-    .portrait-container[_ngcontent-ng-c3690475362] {
+    .portrait-container {
         display: none;
     }
 
-    .about-me-section[_ngcontent-ng-c3690475362] {
+    .about-me-section {
         justify-content: center;
     }
 
-   .mail{
-    display: none;
-   }
+    .mail {
+        display: none;
+    }
 
-   .text-section{
-    padding-left: 0px;
-   }
+    .text-section {
+        padding-left: 0px;
+    }
 }
 
 @media (max-width: 650px) {
-    .text-section{
+    .text-section {
         max-width: 400px;
     }
 
-    .text-section[_ngcontent-ng-c3690475362] > h1[_ngcontent-ng-c3690475362] {
+    .text-section[_ngcontent-ng-c3690475362]>h1[_ngcontent-ng-c3690475362] {
         font-size: 50px;
     }
 
-    .text-section[_ngcontent-ng-c3690475362] > p[_ngcontent-ng-c3690475362] {
+    .text-section[_ngcontent-ng-c3690475362]>p[_ngcontent-ng-c3690475362] {
         font-size: 16px;
     }
 
-    .sub-text-section{
-        p{
+    .sub-text-section {
+        p {
             font-size: 16px;
         }
     }
 }
 
 @media (max-width: 480px) {
-    .social-links-section{
-        img{
+    .social-links-section {
+        img {
             height: 28px;
         }
     }
 
-    .purple-line[_ngcontent-ng-c3690475362] {
+    .purple-line {
         width: 70px;
     }
 }
