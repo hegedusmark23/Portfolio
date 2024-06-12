@@ -1,6 +1,6 @@
-.my-skills{
+.my-skills {
     width: 100%;
-    max-width: 1920px !important;
+    max-width: 1440px !important;
     position: relative;
     margin: auto;
     height: 100%;
@@ -22,7 +22,7 @@
 }
 
 
-.green-shadow{
+.green-shadow {
     position: absolute;
     left: 0;
     top: 0;
@@ -37,6 +37,7 @@
     z-index: 1;
     width: 150px;
     text-align: center;
+
     >img {
         height: 60px;
         cursor: pointer;
@@ -67,6 +68,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+
     >div {
         display: flex;
         align-items: center;
@@ -74,11 +76,13 @@
         justify-content: end;
         width: 100%;
     }
-    p{
+
+    p {
         text-align: center;
         max-width: 471px;
     }
-    h1{
+
+    h1 {
         white-space: nowrap;
     }
 
@@ -98,7 +102,7 @@ p {
     font-size: 16px;
 }
 
-.mobile-button{
+.mobile-button {
     display: none;
 }
 
@@ -135,42 +139,46 @@ p {
 }
 
 @media (max-width: 1250px) {
-    .my-skills{
+    .my-skills {
         flex-direction: column-reverse;
         align-items: center;
         gap: 60px;
     }
 
-    .skills-text-container[_ngcontent-ng-c1876613064] {
-        width: 100%;
+    .skills-text-container{
+        width: 100% !important;
     }
 
-    .desktop-button{
+    .desktop-button {
         display: none;
     }
 
-    .mobile-button{
+    .mobile-button {
         display: block;
     }
 
-    .skills-container[_ngcontent-ng-c1876613064] {
+    .skills-container{
         gap: 30px;
         padding: 0px;
         justify-content: center;
+        width: 100% !important;
     }
 
-    .skills-elements[_ngcontent-ng-c1876613064] {
+    .skills-elements {
         width: 150px;
     }
 }
 
 @media (max-width: 600px) {
-    .skills-text-container-headline{
+
+    .skills-text-container{
+        width: 100%;
+    }
+    .skills-text-container-headline {
         font-size: 50px;
     }
 
     .purple-line {
         width: 110px;
     }
-                
 }
