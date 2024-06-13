@@ -19,13 +19,11 @@
 
 html{
     scroll-behavior: smooth;
-    margin: auto;
 }
 
 html, body {
     height: 100%;
-    width: 100vw;
-}
+    }
 
 body {
     margin: 0 auto;
@@ -34,7 +32,6 @@ body {
     overflow-x: hidden;
     display: table;
 }
-
 
 .green-btn {
     padding: 15px 30px 15px 30px;

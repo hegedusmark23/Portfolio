@@ -164,7 +164,7 @@ form {
 }
 
 @media (max-width: 1350px) {
-    .input-design[_ngcontent-ng-c1679057741] {
+    .input-design {
         max-width: 517px;
         width: 517px !important;
     }
@@ -172,24 +172,24 @@ form {
 
 @media (max-width: 600px) {
 
-    .input-design[_ngcontent-ng-c1679057741] {
+    .input-design {
         max-width: 417px;
         width: 417px !important;
     }
 
-    .privacyP-container[_ngcontent-ng-c1679057741] {
+    .privacyP-container{
         width: 400px !important;
         p{
             font-size: 12px !important;
         }
     }
 
-    .disabled-submit[_ngcontent-ng-c1679057741] {
+    .disabled-submit {
         padding: 10px 25px 10px 25px;
         font-size: 18px;
     }
 
-    .abled-submit[_ngcontent-ng-c1679057741] {
+    .abled-submit{
         padding: 10px 25px 10px 25px;
         font-size: 18px;
     }
@@ -197,13 +197,13 @@ form {
 
 @media (max-width: 530px) {
 
-    .input-design[_ngcontent-ng-c1679057741] {
-        max-width: 317px;
-        width: 317px !important;
+    .input-design {
+        max-width: 400px;
+        width: 400px !important;
         font-size: 13px !important;
     }
 
-    .input-icon[_ngcontent-ng-c1679057741] {
+    .input-icon {
         right: 7px;
         top: 5px;
         height: 20px;
@@ -213,12 +213,12 @@ form {
         font-size: 13px; 
     }
 
-    .input-thin[_ngcontent-ng-c1679057741] {
+    .input-thin {
         height: 30px;
     }
 
-    .privacyP-container[_ngcontent-ng-c1679057741] {
-        width: 317px !important;
+    .privacyP-container {
+        width: 400px !important;
         p{
             font-size: 12px !important;
         }
@@ -227,13 +227,11 @@ form {
 
 @media (max-width: 370px) {
 
-    .input-design[_ngcontent-ng-c1679057741] {
-        max-width: 280px;
-        width: 280px !important;
+    .input-design {
         font-size: 13px !important;
     }
 
-    .input-icon[_ngcontent-ng-c1679057741] {
+    .input-icon {
         right: 7px;
         top: 3px;
         height: 16px;
@@ -243,12 +241,11 @@ form {
         font-size: 13px; 
     }
 
-    .input-thin[_ngcontent-ng-c1679057741] {
+    .input-thin {
         height: 20px;
     }
 
-    .privacyP-container[_ngcontent-ng-c1679057741] {
-        width: 280px !important;
+    .privacyP-container {
         p{
             font-size: 12px !important;
         }
