@@ -7,7 +7,6 @@
     margin: auto;
     height: 100%;
     z-index: 998;
-    display: flex;
     flex-direction: column;
     padding-top: 100px;
 }
@@ -51,10 +50,14 @@
     background-color: #9747FF;
 }
 
-.purple-shadow {
+.shadow-wrapper {
     position: absolute;
-    right: 0;
+    right: -406px;
     top: 0;
+}
+
+.purple-shadow {
+    position: relative;
 }
 
 .portrait-container {
