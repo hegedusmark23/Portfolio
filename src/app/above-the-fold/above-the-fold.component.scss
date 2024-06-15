@@ -373,14 +373,29 @@ h2 {
 @media (max-width:400px) {
 
     .self-portrait{
-        left: 100px;
+        left: 70px;
         top: 180px;
         height: 350px;
     }
 
     .purp-green-clouds {
-        left: -10px;
+        left: -30px;
+        top: 200px;
         height: 450px;
+    }
+
+    .atf-text-container {
+        h1 {
+            font-size: 35px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 24px;
+        }
     }
 }
 
@@ -388,17 +403,21 @@ h2 {
 @media (max-width:375px) {
 
     .self-portrait {
-        left: 110px;
-        top: 180px;
+        left: 60px;
+        top: 120px;
         height: 350px;
     }
 
     .purp-green-clouds {
-        top: 100px;
+        top: 150px;
+    }
+
+    .separator {
+        top: 350px;
     }
 
     .atf-text-container {
-        top: 650px;
+        top: 570px;
     }
 
     .green-btn {
@@ -408,9 +427,12 @@ h2 {
 }
 
 @media (max-width:340px) {
-
+    .self-portrait {
+        left: 30px;
+        top: 140px;
+    }
 
     .purp-green-clouds {
-        top: -100px;
+        top: 130px;
     }
 }

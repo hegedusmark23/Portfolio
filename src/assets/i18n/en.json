@@ -20,7 +20,7 @@
     "portfolio": {
         "text": "Explore a selection of my work here - please feel free to try them out.",
         "joinDescription": "Task Manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories",
-        "elPolloLocoDescription": "'A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to collect coins, and defeat the chikens.",
+        "elPolloLocoDescription": "A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to collect coins, and defeat the chikens.",
         "pokedexDescription": "Based on the PokéAPI a simple library that provides and catalouges pokemon information.",
         "simpleCrmDescription": "Ein sehr einfaches Kundenbeziehungsmanagement-System, das mit CRUD-Funktionalität arbeitet."
     },
@@ -41,9 +41,9 @@
         "placeholderName": "Your name",
         "placeholderEmail": "Your email",
         "placeholderMessage": "Your message",
-        "errorName": "Your name is required",
-        "errorEmail": "Your email is required",
-        "errorMessage": "Your message is empty",
+        "errorName": "Your name is required.",
+        "errorEmail": "Your email is required.",
+        "errorMessage": "Your message is empty.",
         "errorPolicy": "Please accept the privacy policy.",
         "button": "Send message"
     },

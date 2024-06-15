@@ -34,9 +34,9 @@
         "placeholderName": "Ihr Name",
         "placeholderEmail": "Ihre E-Mail",
         "placeholderMessage": "Ihre Nachricht",
-        "errorName": "Ihr Name ist erforderlich",
-        "errorEmail": "Ihre E-Mail ist erforderlich",
-        "errorMessage": "Ihre Nachricht ist leer",
+        "errorName": "Ihr Name ist erforderlich.",
+        "errorEmail": "Ihre E-Mail ist erforderlich.",
+        "errorMessage": "Ihre Nachricht ist leer.",
         "errorPolicy": "Bitte akzeptieren Sie die Datenschutzrichtlinie.",
         "button": "Nachricht senden"
     },

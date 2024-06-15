@@ -170,16 +170,46 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 429px) {
     .text-area {
-        padding: 0 20px;
+        width: 320px !important;
+        padding: 0 50px;
 
         h2 {
             font-size: 20px;
         }
 
         p{
-            font-size: 12px;
+            font-size: 14px;
         }
+    }
+
+    .up-btn{
+        right: 25px;
+    }
+}
+
+@media (max-width: 375px) {
+.contact-headline{
+    h1{
+        font-size: 45px;
+    }
+}
+
+    .text-area {
+        padding: 0 20px;
+        h2 {
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 345px) {
+    .text-area {
+        width: 300px !important;
     }
 }

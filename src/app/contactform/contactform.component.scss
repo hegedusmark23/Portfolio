@@ -225,7 +225,23 @@ form {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 429px) {
+    .error-message{
+        font-size: 13px;
+    }
+    .input-design {
+        max-width: 320px;
+        width: 320px !important;
+        font-size: 13px !important;
+    }
+
+    .privacyP-container {
+        width: 320px !important;
+    }
+}
+
+
+@media (max-width: 375px) {
 
     .input-design {
         font-size: 13px !important;
@@ -251,4 +267,19 @@ form {
         }
     }
 
+}
+
+@media (max-width: 345px) {
+    .error-message{
+        font-size: 13px;
+    }
+    .input-design {
+        max-width: 300px;
+        width: 300px !important;
+        font-size: 13px !important;
+    }
+
+    .privacyP-container {
+        width: 300px !important;
+    }
 }

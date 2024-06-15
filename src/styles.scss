@@ -17,13 +17,14 @@
     scrollbar-color: #141D2F #9747FF;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-html, body {
+html,
+body {
     height: 100%;
-    }
+}
 
 body {
     margin: 0 auto;
@@ -77,6 +78,23 @@ body {
 
     &:hover {
         background-color: #70E61C;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+
+    .green-btn {
+        font-size: 18px;
+    }
+
+    .purple-btn {
+        font-size: 18px;
+    }
+
+    .transparent-btn {
+        font-size: 18px;
     }
 
 }
