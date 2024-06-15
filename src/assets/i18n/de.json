@@ -17,7 +17,8 @@
         "text": "Entdecken Sie hier eine Auswahl meiner Arbeit - bitte probieren Sie sie aus.",
         "joinDescription": "Task-Manager, inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
         "elPolloLocoDescription": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Helfen Sie Pepe, Münzen zu sammeln und die Hühner zu besiegen.",
-        "pokedexDescription": "Basierend auf der PokéAPI eine einfache Bibliothek, die Pokémon-Informationen bereitstellt und katalogisiert."
+        "pokedexDescription": "Basierend auf der PokéAPI eine einfache Bibliothek, die Pokémon-Informationen bereitstellt und katalogisiert.",
+        "simpleCrmDescription": "A very Simple Customer Relationship Management system working with CRUD functionality."
     },
     "contact": {
         "headline": "Kontakt",

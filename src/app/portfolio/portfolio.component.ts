@@ -42,6 +42,17 @@ export class PortfolioComponent{
       github_link: 'https://github.com/hegedusmark23/Pokedex',
       test_link: 'https://portfolio.mark-hegedus.com/pokedex/',
       fade: 'fade-left'
+    },
+    {
+      name: 'Simple CRM',
+      image: 'simplecrm.png',
+      techstack: 'Angular | Firebase ',
+      description: 'simpleCrmDescription',
+      flex_style: 'row-reverse',
+      alignment: 'end',
+      github_link: 'https://github.com/hegedusmark23/SimpleCRM',
+      test_link: 'https://portfolio.mark-hegedus.com/simplecrm/',
+      fade: 'fade-right'
     }
   ]
 

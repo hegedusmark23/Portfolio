@@ -21,6 +21,7 @@
 
 .text-area {
     max-width: 473px;
+    z-index: 1000;
 
     h1 {
         font-size: 90px;
@@ -96,24 +97,24 @@
 }
 
 @media (max-width: 1200px) {
-    .contact-content[_ngcontent-ng-c3406187909] {
+    .contact-content {
         flex-direction: column;
         gap: 60px;
         align-items: center;
         z-index: 988;
     }
 
-    .text-area[_ngcontent-ng-c3406187909] {
+    .text-area {
         max-width: 517px;
     }
 
-    .contact[_ngcontent-ng-c3406187909] {
+    .contact{
         margin: 0;
     }
 }
 
 @media (max-width: 600px) {
-    .up-btn[_ngcontent-ng-c3406187909] {
+    .up-btn {
         right: 30px;
         bottom: -30px;
     }
@@ -133,7 +134,7 @@
         }
     }
 
-    .input-design[_ngcontent-ng-c1679057741][_ngcontent-ng-c1679057741] {
+    .input-design {
         width: 417px !important;
     }
 
@@ -164,7 +165,7 @@
         }
     }
 
-    .up-btn[_ngcontent-ng-c3406187909][_ngcontent-ng-c3406187909] {
+    .up-btn{
         right: 25px;
     }
 }

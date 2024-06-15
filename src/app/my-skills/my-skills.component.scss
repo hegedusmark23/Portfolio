@@ -24,9 +24,10 @@
 
 .green-shadow {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -500px;
+    top: 50px;
     z-index: 0;
+    transform: rotate(-90deg);
 }
 
 .skills-elements {

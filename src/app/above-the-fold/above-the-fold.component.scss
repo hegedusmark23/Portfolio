@@ -39,8 +39,8 @@
     white-space: nowrap;
     z-index: 998;
     position: absolute;
-    top: 278px;
-    right: 132px;
+    top: 350px;
+    right: -50px;
 
 }
 
@@ -145,8 +145,28 @@ h2 {
     }
 }
 
-@media (max-width:1570px) {
+@media (max-width:1920px) {
     .atf-text-container {
+        top: 350px;
+        right: 150px;
+        h1 {
+            font-size: 60px;
+        }
+
+        h2 {
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 44px;
+        }
+    }
+}
+
+@media (max-width:1650px) {
+    .atf-text-container {
+        top: 350px;
+        right: 250px;
         h1 {
             font-size: 60px;
         }
@@ -169,6 +189,8 @@ h2 {
 
 @media (max-width:1400px) {
     .atf-text-container {
+        top: 350px;
+        right: 100px;
         h1 {
             font-size: 50px;
         }
@@ -204,8 +226,8 @@ h2 {
     .purp-green-clouds {
         height: 800px;
         position: relative;
-        top: -80px;
-        left: -200px;
+        top: 100px;
+        left: -100px;
     }
 }
 
@@ -223,11 +245,12 @@ h2 {
     .self-portrait {
         transform: translate(0%, 0%);
         top: 90px;
+        left: 250px;
     }
 
     .purp-green-clouds {
-        top: 0px;
-        left: 0px;
+        top: 70px;
+        left: 40px;
     }
 }
 
@@ -239,14 +262,14 @@ h2 {
 
     .self-portrait {
         height: 600px;
-        left: 160px;
+        left: 190px;
         top: 110px;
     }
 
     .purp-green-clouds {
         height: 800px;
         position: relative;
-        top: 0px;
+        top: 70px;
         left: -30px;
     }
 }
@@ -266,27 +289,27 @@ h2 {
     .purp-green-clouds {
         height: 600px;
         position: relative;
-        top: -113px;
-        left: -11px;
+        top: 100px;
+        left: 20px;
     }
 }
 
 @media (max-width:575px) {
     .separator {
-        top: 390px;
+        top: 420px;
     }
 
     .self-portrait {
         height: 500px;
-        left: 131px;
-        top: 156px;
+        left: 100px;
+        top: 106px;
     }
 
     .purp-green-clouds {
         height: 600px;
         position: relative;
-        top: -100px;
-        left: -15px;
+        top: 100px;
+        left: -45px;
     }
 
     .atf-text-container {
@@ -302,14 +325,15 @@ h2 {
 @media (max-width:480px) {
 
     .self-portrait {
-        left: 100px;
+        left: 50px;
         top: 150px;
     }
 
     .purp-green-clouds {
+        height: 500px;
         position: relative;
-        top: -100px;
-        left: -20px;
+        top: 150px;
+        left: -57px;
     }
 
     .atf-text-container {
@@ -320,15 +344,29 @@ h2 {
 @media (max-width:450px) {
 
     .self-portrait {
-        left: 120px;
+        left: 40px;
         top: 86px;
     }
 
     .purp-green-clouds {
-        left: -10px;
-        top: -50px;
+        height: 470px;
+        left: -40px;
+        top: 130px;
     }
 
+    .atf-text-container {
+        h1 {
+            font-size: 45px;
+        }
+
+        h2 {
+            font-size: 31px;
+        }
+
+        p {
+            font-size: 32px;
+        }
+    }
     
 }
 

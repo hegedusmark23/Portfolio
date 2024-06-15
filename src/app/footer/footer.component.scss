@@ -2,15 +2,22 @@
 footer{
     width: 100%;
     height: 291px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 100px;
-    box-sizing: border-box;
     border-top: 4px solid #70E61C;
+}
+
+section{
+    box-sizing: border-box;
+    max-width: 1440px !important;
+    padding: 0 100px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
     p{
         font-size: 23px;
     }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo-container{
@@ -62,7 +69,7 @@ footer{
 }
 
 @media (max-width: 855px) {
-    footer[_ngcontent-ng-c3509895746] {
+     section {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -74,7 +81,7 @@ footer{
         height: 350px;
     }
 
-    .logo-container[_ngcontent-ng-c3509895746] {
+    .logo-container {
         padding-top: 0px;
         height: 50px;
     }
@@ -89,7 +96,7 @@ footer{
 }
 
 @media (max-width: 500px) {
-    footer{
+     section{
         p{
             white-space: nowrap;
             font-size: 18px;
