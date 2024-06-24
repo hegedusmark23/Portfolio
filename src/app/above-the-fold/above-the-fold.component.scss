@@ -52,6 +52,7 @@
 h1 {
     font-size: 90px;
     font-weight: 700;
+    animation: floatin 1.5s ease 75ms;
 }
 
 h2 {
@@ -75,9 +76,14 @@ h2 {
     }
 }
 
+.float-animation{
+    animation: floatup 1.5s ease 75ms;
+}
+
 .introduction-text {
     font-size: 64px;
     transform: rotate(-90deg);
+    animation: floatdown 1.5s ease 75ms;
 }
 
 p,
@@ -93,7 +99,7 @@ h2 {
     position: absolute;
     z-index: 1;
     left: 0px;
-    top: 50px;
+    top: 55px;
 }
 
 .purp-green-clouds {
@@ -127,6 +133,37 @@ h2 {
     }
 }
 
+@keyframes floatdown {
+    0%{
+        transform: translateY(-1000px);
+    }
+
+    100%{
+        transform: translateY(0);
+        transform: rotate(-90deg);
+    }
+}
+
+@keyframes floatup {
+    0%{
+        transform: translateY(1000px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes floatin {
+    0%{
+        transform: translateX(1000px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
 @keyframes mymove {
     0% {
         top: 873px;
@@ -154,7 +191,7 @@ h2 {
         }
 
         h2 {
-            font-size: 45px;
+            font-size: 41px;
         }
 
         p {
