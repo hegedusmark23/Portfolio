@@ -17,11 +17,11 @@ export class MySkillsComponent {
     },
     {
       path: 'typescript-logo.png',
-      name: 'Typescript'
+      name: 'TypeScript'
     },
     {
       path: 'javascript-logo.png',
-      name: 'Javascript'
+      name: 'JavaScript'
     },
     {
       path: 'html-logo.png',

@@ -43,7 +43,7 @@ export class PortfolioComponent{
       test_link: 'https://portfolio.mark-hegedus.com/pokedex/',
       fade: 'fade-left'
     },
-    {
+    /*{
       name: 'Simple CRM',
       image: 'simplecrm.png',
       techstack: 'Angular | Firebase ',
@@ -53,7 +53,7 @@ export class PortfolioComponent{
       github_link: 'https://github.com/hegedusmark23/SimpleCRM',
       test_link: 'https://portfolio.mark-hegedus.com/simplecrm/',
       fade: 'fade-right'
-    }
+    }*/
   ]
 
 
